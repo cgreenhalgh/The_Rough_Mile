@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "_TRM_musicTracks",
+    "description": "these are backing music tracks for the Rough Mile"
+  },
+
+  "tracks": [
+    {
+      "name": "cylindar",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "cylindar.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 231
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 216.18
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R6.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.15
+        }
+      ]
+    },
+    {
+      "name": "R6b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R6b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.15
+        }
+      ]
+    },
+    {
+      "name": "R12a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12a.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 126.04
+        }
+      ]
+    },
+    {
+      "name": "R12b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 124.12
+        }
+      ]
+    },
+    {
+      "name": "R12c",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12c.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 125.21
+        }
+      ]
+    },
+    {
+      "name": "R12d",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12d.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 139.12
+        }
+      ]
+    },
+    {
+      "name": "R14a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R14a.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 120
+        }
+      ]
+    },
+    {
+      "name": "R14b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R14b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 120
+        }
+      ]
+    },
+    {
+      "name": "stringArr",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "stringArr.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 123.23
+        }
+      ]
+    },
+    {
+      "name": "stringPad",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "stringPad.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 123.23
+        }
+      ]
+    }
+  ]
+}
