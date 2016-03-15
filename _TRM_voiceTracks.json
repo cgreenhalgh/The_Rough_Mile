@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "_TRM_voiceTracks",
+    "description": "these are narration tracks for the Rough Mile"
+  },
+
+  "tracks": [
+    {
+      "name": "Vox_N1a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N1a.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N1b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N1b.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N1c",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N1c.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_C1",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C1.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N2",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N2.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_C2",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C2.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N3",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N3.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_C3",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C3.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N4",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N4.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_C4",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C4.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N5a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N5a.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N5b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N5b.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_C5",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C5.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N6a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N6a.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N6b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N6b.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_C6",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C6.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Vox_N7",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "N7.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    }
+  ]
+}
