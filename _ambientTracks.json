@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "_ambient_tracks",
+    "description": "these are ambient environment tracks for the Rough Mile walk"
+  },
+
+  "tracks": [
+    {
+      "name": "broadStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "broadStreet.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 116
+        }
+      ]
+    },
+    {
+      "name": "stoneyStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "stoneyStreet.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 52
+        }
+      ]
+    },
+    {
+      "name": "waserGate",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "waserGate.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 70
+        }
+      ]
+    },
+    {
+      "name": "fletcherGate",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "fletcherGate.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 84.15
+        }
+      ]
+    },
+    {
+      "name": "weekdayCross",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "weekdayCross.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 102.15
+        }
+      ]
+    },
+    {
+      "name": "middlePavement",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "middlePavement.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 142.03
+        }
+      ]
+    },
+    {
+      "name": "albertStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "albertStreet.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 114.18
+        }
+      ]
+    },
+    {
+      "name": "StPetersSquare",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "StPetersSquare.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 125.03
+        }
+      ]
+    },
+    {
+      "name": "exchangeWalk",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "exchangeWalk.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 71.24
+        }
+      ]
+    },
+    {
+      "name": "marketSquare",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "marketSquare.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 154.01
+        }
+      ]
+    },
+    {
+      "name": "lowRow",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "lowRow.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 86.06
+        }
+      ]
+    },
+    {
+      "name": "clumberStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "clumberStreet.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 104.16
+        }
+      ]
+     },
+     {
+      "name": "lincolnStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "lincolnStreet.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 52.14
+        }
+      ]
+    },
+    {
+      "name": "georgeStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "lincolnStreetTop.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 59.08
+        }
+      ]
+    },
+    {
+      "name": "lentonStreet",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "lentonStreet.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 57.06
+        }
+      ]
+    }
+  ]
+}
