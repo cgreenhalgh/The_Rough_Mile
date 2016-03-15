@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title": "_TRM_context",
+    "description": "waypoints and routes for The Rough Mile"
+  },
+  "context": {
+    "waypoints": [
+		{
+		"name": "BS1",
+		"lat": 52.953976, 	"lng":-1.143943,
+		"description": "Start-Finish - Broad Street, Rough Trade Records",
+		"origin": true
+		},
+		{
+		"name": "BS2",
+		"lat": 52.953898, 	"lng": -1.143899,
+		"description": "Broad Street, Rough Trade Records",
+    "origin": true
+		},
+		{
+		"name": "SS1",
+		"lat": 52.953583, 	"lng": -1.143714,
+		"description": "Transition into Stoney Street",
+    "origin": true
+		},
+		{
+		"name": "SS2",
+		"lat": 52.953437, 	"lng": -1.143641,
+		"description": "fish and chips shop on Stoney street"
+		},
+		{
+		"name": "WG1",
+		"lat":52.953326,  "lng":-1.143661,
+		"description":"Transition into Waser Gate"
+		},
+		{
+		"name": "WG2",
+		"lat":52.953298,  "lng":-1.143762,
+		"description":"narration Just inside Waser Gate"
+		},
+		{
+		"name": "FG1",
+		"lat": 52.953126, "lng": -1.145055,
+		"description": "transition into Fletcher Gate"
+		},
+
+		{
+		"name": "FG2",
+		"lat": 52.952889, "lng": -1.145432,
+		"description": "Tram stop capture on Fletcher Gate"
+		},
+		{
+		"name": "FG3",
+		"lat": 52.952837, "lng": -1.145477,
+		"description": "leaving tram stop capture on Fletcher Gate"
+		},
+		{
+		"name": "FG4",
+		"lat": 52.952436, "lng": -1.145700,
+		"description": "Outside of Fletcher Gate car park enterance"
+		},
+		{
+		"name": "FG5",
+		"lat": 52.951956, "lng": -1.145828,
+		"description": "Nook by Yo Sushi on Fletcher Gate"
+		},
+		{
+		"name": "FG6",
+		"lat": 52.952436, "lng": -1.145700,
+		"description": "Just down from nook at Yo Sushi on Fletcher Gate"
+		},
+		{
+		"name": "WC",
+		"lat":52.951576,  "lng":-1.146057,
+		"description":"Weekday Cross, where restaurant angles away from road"
+		},
+		{
+		"name": "MP1",
+		"lat":52.951498,  "lng":-1.146371,
+		"description": "Transition into Middle Pavement"
+		},
+		{
+		"name": "MP2",
+		"lat":52.951479,  "lng":-1.146830,
+		"description": "Outside of Broadmarsh Enterance on Middle Pavement"
+		},
+		{
+		"name": "AS1",
+		"lat":52.951538,  "lng":-1.148568,
+		"description": "Transition into Albert Street"
+		},
+		{
+		"name": "sPS1",
+		"lat":52.951991,  "lng":-1.148960,
+		"description":"approach St Peters square"
+		},
+		{
+		"name": "sPS2",
+		"lat":52.952114,  "lng":-1.149024,
+		"description":"St Peters square - Trees"
+		},
+		{
+		"name": "EW",
+		"lat":52.952421,  "lng":-1.149034,
+		"description":"Transition into Exchange walk"
+		},
+		{
+		"name": "MS1",
+		"lat":52.953102,  "lng":-1.149232,
+		"description":"Market Square by Exchange Walk"
+		},
+		{
+		"name": "MS2",
+		"lat":52.953071,  "lng": -1.150650,
+		"description":"Market Square bottom left by Costa"
+		},
+		{
+		"name": "MS3",
+		"lat":52.953523,  "lng": -1.151123,
+		"description":"Market Square top left by Debenhams"
+		},
+		{
+		"name": "MS4",
+		"lat":52.953506,  "lng":-1.149320,
+		"description":"Market Square top right by council house"
+		},
+		{
+		"name": "MS5",
+		"lat":52.953606,  "lng":-1.149382,
+		"description":"by left lion"
+		},
+		{
+		"name": "MS6",
+		"lat":52.953641,  "lng": -1.151183,
+		"description":"top right corner near market street"
+		},
+		{
+		"name": "LR",
+		"lat":52.953684,  "lng":-1.149282,
+		"description":"Low Row by council house"
+		},
+		{
+		"name": "CS",
+		"lat":52.953726,  "lng":-1.147501,
+		"description":"Transition to Clumber street"
+		},
+		{
+		"name": "LS1",
+		"lat":52.954414,  "lng": -1.147528,
+		"description":"Transition into Lincoln street"
+		},
+		{
+		"name": "LS2",
+		"lat":52.954408,  "lng":-1.147354,
+		"description":"Capture point by HSBC Cashpoint in Lincoln street"
+		},
+		{
+		"name": "LS3",
+		"lat":52.954434,  "lng":-1.147049,
+		"description":"music transition after leaving capture point"
+		},
+		{
+		"name": "LS4",
+		"lat":52.954467,  "lng":-1.146866,
+		"description":"narration starts at junction with Clinton street"
+		},
+		{
+		"name": "GS",
+		"lat":52.954664,   "lng":-1.145415,
+		"description":" on George Street"
+		},
+		{
+		"name": "OLS1",
+		"lat":52.954370,  "lng":-1.145123,
+		"description":"transition into Old Lenton Street"
+		},
+		{
+		"name": "OLS2",
+		"lat":52.954400,  "lng":-1.144958,
+		"description":"Half-way down Old Lenton Street"
+		},
+		{
+		"name": "BS3",
+		"lat":52.954507,  "lng":-1.144282,
+		"description":"turn corner on Broad Street"
+		},
+		{
+		"name": "BS4",
+		"lat":52.954162,  "lng":-1.144050,
+		"description":"half-way along Broad Street"
+		}
+
+    ],
+
+    "routes": [
+			{
+				"name": "1m",
+				"description": "Start of walk, music starts and plays along Broad Street - possibly not needed, auto start?????",
+				"from": "BS1",
+				"to": "SS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "1n",
+				"description": "first narration",
+				"from": "BS2",
+				"to": "SS2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "2m",
+				"description": "music transition into Stoney street, music plays along this leg",
+				"from": "SS1",
+				"to": "WG1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "3n",
+				"description": "narration at Fish Shop, Stony Street",
+				"from": "SS2",
+				"to": "WG2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "4m",
+				"description": "music transition into Waser Gate, music plays for full duration of this street",
+				"from": "WG1",
+				"to": "FG1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "5n",
+				"description": "narration in Waser Gate",
+				"from": "WG2",
+				"to": "FG1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "6nm",
+				"description": "narration and music transition into Fletcher Gate",
+				"from": "FG1",
+				"to": "FG2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "7m",
+				"description": "music transition into capture point at Tram stop on Fletcher Gate",
+				"from": "FG2",
+				"to": "FG3",
+				"nearDistance": "30"
+			},
+			{
+				"name": "8m",
+				"description": "music transition out from capture point at Tram stop on Fletcher Gate",
+				"from": "FG3",
+				"to": "FG4",
+				"nearDistance": "30"
+			},
+			{
+				"name": "9n",
+				"description": "narration point when walking down Fletcher Gate",
+				"from": "FG4",
+				"to": "FG5",
+				"nearDistance": "30"
+			},
+			{
+				"name": "10m",
+				"description": "nook at Yo Sushi",
+				"from": "FG5",
+				"to": "FG6",
+				"nearDistance": "30"
+			},
+			{
+				"name": "11m",
+				"description": "music for walking down Fletcher gate from nook at Yo Sushi",
+				"from": "FG6",
+				"to": "WC",
+				"nearDistance": "30"
+			},
+			{
+				"name": "12nm",
+				"description": "Capture point at Weekday Cross for Narration and Music",
+				"from": "WC",
+				"to":"MP1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "13m",
+				"description": "music transition into Middle Pavement",
+				"from": "MP1",
+				"to":"AS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "14n",
+				"description": "narration at Broadmarsh enterance, Middle Pavement",
+				"from": "MP2",
+				"to":"AS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "15m",
+				"description": "music transition into Albert Street",
+				"from": "AS1",
+				"to":"sPS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "16m",
+				"description": "approach to St. Peter's Square - Music",
+				"from": "sPS1",
+				"to":"EW",
+				"nearDistance": "30"
+			},
+			{
+				"name": "17n",
+				"description": "St. Peter's Square - Narration",
+				"from": "sPS2",
+				"to":"EW",
+				"nearDistance": "30"
+			},
+			{
+				"name": "18nm",
+				"description": "Narration just inside of Exchange walk",
+				"from": "EW",
+				"to":"MS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "19m1",
+				"description": "Enter Old Market square at bottom right - Music transition",
+				"from": "MS1",
+				"to":"MS2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "19m2",
+				"description": "Old Market square bottom left by Costa - Music",
+				"from": "MS2",
+				"to":"MS3",
+				"nearDistance": "30"
+			},
+			{
+				"name": "19m3",
+				"from": "MS3",
+				"to":"MS4",
+				"description": "Old Market square top left - Music",
+				"nearDistance": "30"
+			},
+			{
+				"name": "19m4",
+				"from": "MS4",
+				"to":"MS1",
+				"description": "Old Market square top right by Council House- Music",
+				"nearDistance": "30"
+			},
+			{
+				"name": "20n",
+				"from": "MS5",
+				"to":"MS6",
+				"description": "Old Market square along row of seats - Narration enters",
+				"nearDistance": "30"
+			},
+			{
+				"name": "21nm",
+				"from": "LR",
+				"to":"CS",
+				"description": "music and narration transition into Low Row",
+				"nearDistance": "30"
+			},
+			{
+				"name": "22nm",
+				"from": "CS",
+				"to":"LS1",
+				"description": "music and narration transition into Clumber Street",
+				"nearDistance": "30"
+			},
+			{
+				"name": "23m",
+				"from": "LS1",
+				"to":"LS2",
+				"description": "music transition into Lincon Street",
+				"nearDistance": "30"
+			},
+			{
+				"name": "24n",
+				"from": "LS2",
+				"to":"LS3",
+				"description": "by HSBC cash pont on Lincon Street",
+				"nearDistance": "30"
+			},
+			{
+				"name": "25m",
+				"from": "LS3",
+				"to":"LS4",
+				"description": "music transition out from C5 along Lincon Street",
+				"nearDistance": "30"
+			},
+			{
+				"name": "26n",
+				"description": "narration along Lincoln Street",
+				"from": "LS4",
+				"to":"GS",
+				"nearDistance": "30"
+			},
+			{
+				"name": "27nm",
+				"description": "music and narration transition into George Street",
+				"from": "GS",
+				"to":"OLS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "28m",
+				"description": "music transition into Old Lenton Street",
+				"from": "OLS1",
+				"to":"BS3",
+				"nearDistance": "30"
+			},
+			{
+				"name": "29n",
+				"description": "narration half-way down Old Lenton Street",
+				"from": "OLS2",
+				"to":"BS3",
+				"nearDistance": "30"
+			},
+
+			{
+				"name": "30m",
+				"description": "music transition back into Broad Street",
+				"from": "BS3",
+				"to":"BS4",
+				"nearDistance": "30"
+			},
+			{
+				"name": "31n",
+				"description": "final narration on Broad Street",
+				"from": "BS4",
+				"to":"SS1",
+				"nearDistance": "30"
+			}
+    ]
+  }
+}
