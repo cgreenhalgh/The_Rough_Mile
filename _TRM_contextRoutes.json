@@ -198,7 +198,7 @@
 		},
 		{
 		"name": "DO2",
-		"lat":52.953697,,  "lng":-1.142883,
+		"lat":52.953697,  "lng":-1.142883,
 		"description":"deviation from route outer waypoint 2"
 		},
 		{
@@ -516,7 +516,106 @@
 				"from": "BS4",
 				"to":"SS1",
 				"nearDistance": "30"
-			}
+			},
+			{
+				"name": "DO1-DO2",
+				"description": "deviation route 1",
+				"from": "DO1",
+				"to":"DO2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO2-DO3",
+				"description": "deviation route 1",
+				"from": "DO2",
+				"to":"DO3",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO3-DO4",
+				"description": "deviation route 1",
+				"from": "DO3",
+				"to":"DO4",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO4-DO5",
+				"description": "deviation route 1",
+				"from": "DO4",
+				"to":"DO5",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO5-DO6",
+				"description": "deviation route 1",
+				"from": "DO5",
+				"to":"DO6",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO6-DO7",
+				"description": "deviation route 1",
+				"from": "DO6",
+				"to":"DO7",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO7-DO8",
+				"description": "deviation route 1",
+				"from": "DO7",
+				"to":"DO8",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO8-DO9",
+				"description": "deviation route 1",
+				"from": "DO8",
+				"to":"DO9",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO9-DO10",
+				"description": "deviation route 1",
+				"from": "DO9",
+				"to":"DO10",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO10-DO11",
+				"description": "deviation route 1",
+				"from": "DO10",
+				"to":"DO11",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO11-DO12",
+				"description": "deviation route 1",
+				"from": "DO11",
+				"to":"DO12",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO12-DO13",
+				"description": "deviation route 1",
+				"from": "DO12",
+				"to":"DO13",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO13-DO14",
+				"description": "deviation route 1",
+				"from": "DO13",
+				"to":"DO14",
+				"nearDistance": "30"
+			},
+			{
+				"name": "DO14-DO15",
+				"description": "deviation route 1",
+				"from": "DO14",
+				"to":"DO15",
+				"nearDistance": "30"
+			},
+			
     ]
   }
 }
