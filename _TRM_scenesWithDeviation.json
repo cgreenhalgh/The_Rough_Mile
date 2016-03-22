@@ -14,7 +14,7 @@
       "waypoints": {"BS1": "BS1", "SS1": "SS1"},
       "routes": {"R1": "1m", "Rnext": "1n"},
       "onload": "window.lastGps=totalTime;",
-      "onupdate": "if (activity=='NOGPS') { if (totalTime-window.lastGps>20) { daoplayer.setScene('getGPS'); } } else { window.lastGps=totalTime; if (!routes['R1'].near) { daoplayer.setScene('Start/any'); } else if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_1'); } }",
+      "onupdate": "if (activity=='NOGPS') { if (totalTime-window.lastGps>20) { daoplayer.setScene('getGPS'); } } else { window.lastGps=totalTime; if (!routes['R1'].near) { daoplayer.setScene('Start/any'); } else if (routes['DO1'].nearest || routes['DO2'].nearest || routes['DO3'].nearest || routes['DO4'].nearest || routes['DO5'].nearest || routes['DO6'].nearest || routes['DO7'].nearest || routes['DO8'].nearest || routes['DO9'].nearest || routes['DO10'].nearest || routes['DO11'].nearest || routes['DO12'].nearest || routes['DO13'].nearest || routes['DO14'].nearest || routes['DO15'].nearest) { daoplayer.setScene('Scene_D'); } else if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_1'); } }",
       "updatePeriod": 1.0,
       "tracks": [
         {
