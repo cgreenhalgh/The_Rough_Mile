@@ -12,7 +12,7 @@
       "description":  "Music start at RoughTrade Records",
       "partial": false,
       "waypoints": {},
-      "routes": {"R1": "1m", "Rnext": "1n"},
+      "routes": {"R1": "0m", "Rnext": "1n"},
       "onload": "window.lastGps=totalTime;",
       "onupdate": "if (activity=='NOGPS') { if (totalTime-window.lastGps>20) { daoplayer.setScene('getGPS'); } } else { window.lastGps=totalTime; if (!routes['R1'].near) { daoplayer.setScene('Start/any'); } else if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_1'); } }",
       "updatePeriod": 1.0,
