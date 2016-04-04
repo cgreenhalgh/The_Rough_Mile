@@ -191,42 +191,43 @@
 		"lat":52.954162,  "lng":-1.144050,
 		"description":"half-way along Broad Street"
 		}
+
     ],
 
     "routes": [
 			{
-				"name": "0m",
+				"name": "1m",
 				"description": "Start of walk, music starts and plays along Broad Street - possibly not needed, auto start?????",
 				"from": "BS1",
-				"to": "SS1",
+				"to": "BS2",
 				"nearDistance": "30"
 			},
 			{
 				"name": "1n",
 				"description": "first narration",
 				"from": "BS2",
-				"to": "SS2",
+				"to": "SS1",
 				"nearDistance": "30"
 			},
 			{
 				"name": "2m",
 				"description": "music transition into Stoney street, music plays along this leg",
 				"from": "SS1",
-				"to": "WG1",
+				"to": "SS2",
 				"nearDistance": "30"
 			},
 			{
 				"name": "3n",
 				"description": "narration at Fish Shop, Stony Street",
 				"from": "SS2",
-				"to": "WG2",
+				"to": "WG1",
 				"nearDistance": "30"
 			},
 			{
 				"name": "4m",
 				"description": "music transition into Waser Gate, music plays for full duration of this street",
 				"from": "WG1",
-				"to": "FG1",
+				"to": "WG2",
 				"nearDistance": "30"
 			},
 			{
@@ -289,7 +290,7 @@
 				"name": "13m",
 				"description": "music transition into Middle Pavement",
 				"from": "MP1",
-				"to":"AS1",
+				"to":"MP2",
 				"nearDistance": "30"
 			},
 			{
@@ -310,7 +311,7 @@
 				"name": "16m",
 				"description": "approach to St. Peter's Square - Music",
 				"from": "sPS1",
-				"to":"EW",
+				"to":"sPS2",
 				"nearDistance": "30"
 			},
 			{
@@ -415,7 +416,7 @@
 				"name": "28m",
 				"description": "music transition into Old Lenton Street",
 				"from": "OLS1",
-				"to":"BS3",
+				"to":"OLS2",
 				"nearDistance": "30"
 			},
 			{
