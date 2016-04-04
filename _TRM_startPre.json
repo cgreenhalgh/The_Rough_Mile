@@ -13,7 +13,7 @@
       "routes":{},
       "partial": false,
       "onload": "window.lastGpsWarning=totalTime; daoplayer.speak('Waiting for G P S.',true);",
-      "onupdate": "if (activity!=null && activity!='NOGPS') { daoplayer.speak('OK.',true); daoplayer.setScene('Scene_0'); } else if (totalTime-window.lastGpsWarning>10) { window.lastGpsWarning=totalTime; daoplayer.speak('Waiting for G P S.', true); }",
+      "onupdate": "if (activity=='NOGPS') { window.startNoGpsTime=totalTime; } if (totalTime>window.startNoGpsTime+20 && routes['0m'].near) { daoplayer.setScene('Scene_0'); }",
       "updatePeriod":1.0,
       "description": "wait for gps",
       "tracks": [
