@@ -19,12 +19,12 @@
       "tracks": [
         {
           "name": "R14a",
-          "volume": "sceneTime<4 ? [sceneTime,trackVolume,sceneTime,4,0.8] : 0.8",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0.8] : 0.8",
           "pos": 0
         },
         {
           "name": "broadStreet",
-          "volume": "sceneTime<4 ? [sceneTime,trackVolume,sceneTime,4,0.5] : 0.5",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0.5] : 0.5",
           "pos": 0
         }
       ]
