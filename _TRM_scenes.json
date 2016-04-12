@@ -34,7 +34,7 @@
       "partial": false,
       "waypoints": {},
       "routes": {"R1": "1n", "Rnext": "2m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+39;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_2'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
 
       "updatePeriod": 1.0,
@@ -94,7 +94,7 @@
       "description":  "narration outside of fish shop",
       "waypoints": {},
       "routes": {"R1": "3n", "Rnext": "4m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+31;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_4'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -151,7 +151,7 @@
       "description":  "narration enters in Waser Gate",
       "waypoints": {},
       "routes": {"R1": "5n", "Rnext": "6nm"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+53;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_6'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -175,7 +175,7 @@
       "description":  "narration and music changes on reaching Fletcher Gate - first capture, by Tram stop",
       "waypoints": {},
       "routes": {"R1": "6nm", "Rnext": "7m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+70;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_7'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -265,7 +265,7 @@
       "description":  "narration enters at enterance to Fletcher gate car Park",
       "waypoints": {},
       "routes": {"R1": "9n", "Rnext": "10m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+112;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_10'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -343,7 +343,7 @@
       "description":  "music and narration asking for capture at Weekday Cross",
       "waypoints": {},
       "routes": {"R1": "12nm", "Rnext": "13m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+40;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_13'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -410,7 +410,7 @@
       "description":  "narration and music entering at enterance to The Broadmarsh Centre",
       "waypoints": {},
       "routes": {"R1": "14n", "Rnext": "15m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+140;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_15'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -504,7 +504,7 @@
       "description":  "narration enters - capture stage at St. Peters Square",
       "waypoints": {},
       "routes": {"R1": "17n", "Rnext": "18nm"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+43;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_18'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -528,7 +528,7 @@
       "description":  "music and narration transition into Exchange Walk",
       "waypoints": {},
       "routes": {"R1": "18nm", "Rnext": "19m1"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+84;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_19'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -595,7 +595,7 @@
       "description":  "narration at Old Market Square - by seating area",
       "waypoints": {},
       "routes": {"R1": "20n", "Rnext": "21nm"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+76;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_21'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -619,7 +619,7 @@
       "description":  "music and narration transition along Low Row",
      "waypoints": {},
       "routes": {"R1": "21nm", "Rnext": "22nm"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+90;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_22'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -653,7 +653,7 @@
       "description":  "music and narration transition into Clumber Street",
      "waypoints": {},
       "routes": {"R1": "22nm", "Rnext": "23m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+55;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_23'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -720,7 +720,7 @@
       "description":  "narration reuests capture at the HSBC cash point on Lincoln Street",
       "waypoints": {},
       "routes": {"R1": "24n", "Rnext": "25m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+34;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_25'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -772,7 +772,7 @@
       "description":  "narration enters along Lincoln Street",
       "waypoints": {},
       "routes": {"R1": "26n", "Rnext": "27nm"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+64;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_27'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -801,7 +801,7 @@
       "description":  "music and narration transition on turning corner into George Street",
       "waypoints": {},
       "routes": {"R1": "27nm", "Rnext": "28m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+28;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_28'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -861,7 +861,7 @@
       "description":  "narration invites capture in Old Lenton Street",
       "waypoints": {},
       "routes": {"R1": "29n", "Rnext": "30m"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+57;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_30'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
@@ -923,7 +923,7 @@
       "description":  "final narration enters along Broad Street",
       "waypoints": {},
       "routes": {"R1": "31n"},
-      "onload": "window.narrativeEndTime=totalTime+?DURATION-SECONDS?;",
+      "onload": "window.narrativeEndTime=totalTime+15;",
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } }  else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "tracks": [
         {
