@@ -18,9 +18,19 @@
       "description": "wait for gps",
       "tracks": [
         {
-          "name": "R14a",
-          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0.8] : 0.8",
-          "pos": 0
+          "name": "scene_0_d&b",
+          "volume": 0.8,
+          "pos":  0
+        },
+        {
+          "name": "scene_0_keys",
+          "volume": 0.8,
+          "pos":  0
+        },
+        {
+          "name": "scene_0_pad",
+          "volume": 0,
+          "pos":  0
         },
         {
           "name": "broadStreet",
