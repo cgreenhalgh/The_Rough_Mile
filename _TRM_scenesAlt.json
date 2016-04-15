@@ -2,7 +2,7 @@
   "meta": {
     "mimetype": "application/x-daoplayer-composition",
     "version": 1,
-    "title":  "_TRM_scenes",
+    "title":  "_TRM_scenesAlt",
     "description":  "The Rough Mile scenes"
   },
 
@@ -58,11 +58,11 @@
         },
         {
           "name": "scene_0_keys",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
           "name": "scene_0_pad",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8"
         },
         {
           "name": "broadStreet",
@@ -83,11 +83,11 @@
       "tracks": [
         {
           "name": "scene_0_d&b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
           "name": "scene_0_pad",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
           "name": "scene_2&4_drums",
@@ -241,11 +241,11 @@
         },
         {
           "name": "scene_2&4_drums",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
         },
         {
           "name": "scene_4_keys",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
         },
         {
           "name": "waserGate",
