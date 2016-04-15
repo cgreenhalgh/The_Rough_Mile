@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "_TRM_musicTracks",
+    "description": "these are backing music tracks for the Rough Mile"
+  },
+
+  "tracks": [
+    {
+      "name": "scene_0_d&b",
+      "pauseIfSilent": false,
+      "files": [
+        {
+          "path": "scene_0_d&b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.06
+        }
+      ]
+    },
+    {
+      "name": "scene_0_keys",
+      "pauseIfSilent": false,
+      "files": [
+        {
+          "path": "scene_0_keys.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.06
+        }
+      ]
+    },
+    {
+      "name": "scene_0_pad",
+      "pauseIfSilent": false,
+      "files": [
+        {
+          "path": "scene_0_pad.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.06
+        }
+      ]
+    },
+    {
+      "name": "scene_2&4_drums",
+      "pauseIfSilent": false,
+      "files": [
+        {
+          "path": "scene_2&4_drums.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 144.225
+        }
+      ]
+    },
+    {
+      "name": "scene_2_keys",
+      "pauseIfSilent": false,
+      "files": [
+        {
+          "path": "scene_2_keys.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 144.225
+        }
+      ]
+    },
+    {
+      "name": "scene_4_keys",
+      "pauseIfSilent": false,
+      "files": [
+        {
+          "path": "scene_4_keys.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 144.225
+        }
+      ]
+    },
+    {
+      "name": "scene_6_pad",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_6_pad.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_6_accent",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_6_accent.wav",
+          "filePos": 0,
+          "repeats": 1,
+          "trackPos": 0,
+          "length": 9.08
+        }
+      ]
+    },
+    {
+      "name": "capture_accent",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "capture_accent.wav",
+          "filePos": 0,
+          "repeats": 1,
+          "trackPos": 0,
+          "length": 12.11
+        }
+      ]
+    },
+    {
+      "name": "capture",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "C.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 216.18
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R6.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.15
+        }
+      ]
+    },
+    {
+      "name": "R6b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R6b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.15
+        }
+      ]
+    },
+    {
+      "name": "R12a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12a.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 126.04
+        }
+      ]
+    },
+    {
+      "name": "R12b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 124.12
+        }
+      ]
+    },
+    {
+      "name": "R12c",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12c.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 125.21
+        }
+      ]
+    },
+    {
+      "name": "R12d",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R12d.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 139.12
+        }
+      ]
+    },
+    {
+      "name": "R14a",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R14a.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 120
+        }
+      ]
+    },
+    {
+      "name": "R14b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "R14b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 120
+        }
+      ]
+    },
+    {
+      "name": "stringArr",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "stringArr.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 123.23
+        }
+      ]
+    },
+    {
+      "name": "stringPad",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "stringPad.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 123.23
+        }
+      ]
+    }
+  ]
+}
