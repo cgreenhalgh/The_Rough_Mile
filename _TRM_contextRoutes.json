@@ -118,17 +118,17 @@
 		},
 		{
 		"name": "MS3",
-		"lat":52.953523,  "lng": -1.151123,
+		"lat":52.953375,  "lng": -1.151143,
 		"description":"Market Square top left by Debenhams"
 		},
 		{
 		"name": "MS4",
-		"lat":52.953506,  "lng":-1.149320,
+		"lat":52.953453,  "lng":-1.149346,
 		"description":"Market Square top right by council house"
 		},
 		{
 		"name": "MS5",
-		"lat":52.953606,  "lng":-1.149382,
+		"lat":52.953640,  "lng":-1.149392,
 		"description":"by left lion"
 		},
 		{
@@ -188,7 +188,7 @@
 		},
 		{
 		"name": "BS4",
-		"lat":52.954162,  "lng":-1.144050,
+		"lat":52.954258,  "lng":-1.144126,
 		"description":"half-way along Broad Street"
 		}
 
@@ -333,35 +333,35 @@
 				"description": "Enter Old Market square at bottom right - Music transition",
 				"from": "MS1",
 				"to":"MS2",
-				"nearDistance": "30"
+				"nearDistance": "25"
 			},
 			{
 				"name": "19m2",
 				"description": "Old Market square bottom left by Costa - Music",
 				"from": "MS2",
 				"to":"MS3",
-				"nearDistance": "30"
+				"nearDistance": "25"
 			},
 			{
 				"name": "19m3",
 				"from": "MS3",
 				"to":"MS4",
 				"description": "Old Market square top left - Music",
-				"nearDistance": "30"
+				"nearDistance": "25"
 			},
 			{
 				"name": "19m4",
 				"from": "MS4",
 				"to":"MS1",
 				"description": "Old Market square top right by Council House- Music",
-				"nearDistance": "30"
+				"nearDistance": "25"
 			},
 			{
 				"name": "20n",
 				"from": "MS5",
 				"to":"MS6",
 				"description": "Old Market square along row of seats - Narration enters",
-				"nearDistance": "30"
+				"nearDistance": "25"
 			},
 			{
 				"name": "21nm",
