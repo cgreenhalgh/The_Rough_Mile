@@ -31,8 +31,7 @@
         },
         {
           "name": "broadStreet",
-          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0.9] : 0.9",
-          "pos":  0
+          "volume": 0.9
         }
       ]
     },
@@ -161,6 +160,10 @@
       "updatePeriod":1.0,
       "tracks": [
         {
+          "name": "Vox_N1b",
+          "volume": 1
+        },
+        {
           "name": "scene_2&4_drums",
           "volume": 0.8
         },
@@ -171,10 +174,6 @@
         {
           "name": "scene_4_keys",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8"
-        },
-        {
-          "name": "Vox_N1b",
-          "volume": 1
         },
         {
           "name": "stoneyStreet",
@@ -274,12 +273,12 @@
         {
           "name": "capture_accent",
           "volume": 0.8,
-           "pos":  0
+          "pos":  0
         },
         {
           "name": "capture",
           "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.7] : 0.8",
-           "pos":  0
+          "pos":  0
         },
         {
           "name": "scene_6_pad",
@@ -305,12 +304,12 @@
           "volume": 1
         },
         {
-          "name": "stringArr",
-          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0.7] : 0.7",
+          "name": "scene_8",
+          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0.8] : 0.8",
            "pos":  0
         },
         {
-          "name": "R6b",
+          "name": "capture",
           "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0] : 0"
         },
         {
@@ -334,8 +333,8 @@
           "pos":  0
         },
         {
-          "name": "stringArr",
-          "volume": 0.7
+          "name": "scene_8",
+          "volume": 0.8
         },
         {
           "name": "fletcherGate",
@@ -357,11 +356,12 @@
           "volume": 1
         },
         {
-          "name": "stringPad",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7"
+          "name": "scene_10",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7",
+          "pos": 0
         },
         {
-          "name": "stringArr",
+          "name": "scene_8",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
@@ -376,7 +376,7 @@
       "waypoints": {},
       "routes": {"R1": "11m", "Rnext": "12nm"},
       "onload": "",
-      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_12'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_12'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
         {
@@ -384,11 +384,12 @@
           "volume": 1
         },
         {
-          "name": "stringArr",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7"
+          "name": "scene_8",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8"
+          "pos": 0
         },
         {
-          "name": "stringPad",
+          "name": "scene_10",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
@@ -409,16 +410,21 @@
         {
           "name": "Vox_C2",
           "volume": 1,
-          "pos": 0
+          "pos": -5
         },
         {
-          "name": "C",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0.7] : 0.7",
-          "pos": 0
+          "name": "capture_accent",
+          "volume": 0.8,
+          "pos":  0
         },
         {
-          "name": "stringArr",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+          "name": "capture",
+          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.8] : 0.8",
+          "pos":  0
+        },
+        {
+          "name": "scene_8",
+          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0] : 0"
         },
         {
           "name": "weekdayCross",
@@ -445,12 +451,12 @@
           "volume": 1
         },
         {
-          "name": "R12a",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.5] : 0.5",
+          "name": "scene_13",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
           "pos": 0
         },
         {
-          "name": "C",
+          "name": "capture",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
@@ -479,13 +485,8 @@
           "pos":  0
         },
         {
-          "name": "R12b",
-          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0.5] : 0.5",
-          "pos":  0
-        },
-        {
-          "name": "R12a",
-          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0] : 0"
+          "name": "scene_13",
+          "volume": 0.8
         },
         {
           "name": "middlePavement",
@@ -507,12 +508,12 @@
           "volume": 1
         },
         {
-          "name": "R12c",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.5] : 0.5",
+          "name": "scene_15",
+          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.8] : 0.8",
           "pos":  0
         },
         {
-          "name": "R12b",
+          "name": "scene_13",
           "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0] : 0"
         },
         {
@@ -540,20 +541,21 @@
           "volume": 1
         },
         {
-          "name": "C",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0.7] : 0.7"
+          "name": "scene_16",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
+          "pos":  0
         },
         {
-          "name": "R12c",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0.] : 0"
+          "name": "scene_15",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
           "name": "albertStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0] : 0"
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
         },
         {
           "name": "StPetersSquare",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0.9] : 0.9",
           "pos":  0
         }
       ]
@@ -570,11 +572,21 @@
         {
           "name": "Vox_C3",
           "volume": 1,
-          "pos": 0
+          "pos": -4
         },
         {
-          "name": "C",
-          "volume": 0.7
+          "name": "scene_16",
+          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0] : 0"
+        },
+        {
+          "name": "capture_accent",
+          "volume": 0.8,
+          "pos":  0
+        },
+        {
+          "name": "capture",
+          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0.8] : 0.8",
+          "pos":  0
         },
         {
           "name": "StPetersSquare",
@@ -597,12 +609,12 @@
           "pos":  0
         },
         {
-          "name": "R6",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.5] : 0.5",
+          "name": "scene_18",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
           "pos":  0
         },
         {
-          "name": "C",
+          "name": "capture",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
@@ -630,13 +642,18 @@
           "volume": 1
         },
         {
-          "name": "R6b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6",
+          "name": "capture_accent",
+          "volume": 0.8,
           "pos":  0
         },
         {
-          "name": "R6",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "name": "capture",
+          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0.8] : 0.8",
+          "pos":  0
+        },
+        {
+          "name": "scene_18",
+          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0] : 0"
         },
         {
           "name": "exchangeWalk",
@@ -664,8 +681,8 @@
           "pos": 0
         },
         {
-          "name": "R6b",
-          "volume": 0.7
+          "name": "capture",
+          "volume": 0.8
         },
         {
           "name": "marketSquare",
@@ -685,16 +702,21 @@
         {
           "name": "Vox_N5a",
           "volume": 1,
+          "pos":  -4.5
+        },
+        {
+          "name": "scene_21",
+          "volume": 0.8,
+          "pos":  -4.1055
+        },
+        {
+          "name": "scene_21bridge",
+          "volume": 0.8,
           "pos":  0
         },
         {
-          "name": "R14a",
-          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0.8] : 0.8",
-          "pos":  0
-        },
-        {
-          "name": "R6b",
-          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0] : 0"
+          "name": "capture",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0] : 0"
         },
         {
           "name": "marketSquare",
@@ -702,7 +724,7 @@
         },
         {
           "name": "lowRow",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.7] : 0.7",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.4] : 0.4",
           "pos":  0
         }
       ]
@@ -719,16 +741,21 @@
         {
           "name": "Vox_N5b",
           "volume": 1,
-          "pos": 0
+          "pos": -3
         },
         {
-          "name": "R14b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
+          "name": "scene_22",
+          "volume": 0.8",
+          "pos":  -2.125
+        },
+        {
+          "name": "scene_22bridge",
+          "volume": 0.8",
           "pos":  0
         },
         {
-          "name": "R14a",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "name": "scene_21",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
         },
         {
           "name": "lowRow",
@@ -755,13 +782,18 @@
           "volume": 1
         },
         {
-          "name": "R6b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7",
+          "name": "scene_23",
+          "volume": 0.8,
           "pos":  0
         },
         {
-          "name": "R14b",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+          "name": "scene_23bridge",
+          "volume": 0.8,
+          "pos":  0
+        },
+        {
+          "name": "scene_22",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
         },
         {
           "name": "clumberStreet",
@@ -789,8 +821,19 @@
           "pos":  0
         },
         {
-          "name": "R6b",
-          "volume": 0.7
+          "name": "capture_accent",
+          "volume": 0.8,
+          "pos":  0
+        },
+        {
+          "name": "capture",
+          "volume": "sceneTime<0.4 ? [sceneTime,trackVolume,0.4,0.8] : 0.8",
+          "pos":  0
+        },
+        {
+          "name": "scene_23",
+          "volume": "sceneTime<0.4 ? [sceneTime,trackVolume,0.4,0] : 0",
+          "pos":  0
         },
         {
           "name": "lincolnStreet",
@@ -812,12 +855,12 @@
           "volume": 1
         },
         {
-          "name": "R12a",
-          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0.5] : 0.5",
+          "name": "scene_25",
+          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0.8] : 0.8",
           "pos":  0
         },
         {
-          "name": "R6b",
+          "name": "capture",
           "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0] : 0"
         },
         {
@@ -841,8 +884,8 @@
           "pos": 0
         },
         {
-          "name": "R12a",
-          "volume": 0.5
+          "name": "scene_25",
+          "volume": 0.8
         },
         {
           "name": "lincolnStreet",
@@ -870,11 +913,11 @@
           "pos":  0
         },
         {
-          "name": "R12b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.5] : 0.5"
+          "name": "scene_27",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8"
         },
         {
-          "name": "R12a",
+          "name": "scene_25",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
@@ -897,12 +940,18 @@
           "volume": 1
         },
         {
-          "name": "R12c",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0.5] : 0.5"
+          "name": "scene_27",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
         },
         {
-          "name": "R12b",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+          "name": "scene_27bridge",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.8] : 0.8",
+          "pos":  0
+        },
+        {
+          "name": "capture",
+          "volume": 0.8,
+          "pos":  -7.08
         },
         {
           "name": "georgeStreet",
@@ -930,13 +979,8 @@
           "pos":  0
         },
         {
-          "name": "R6b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7",
-          "pos":  0
-        },
-        {
-          "name": "R12c",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "name": "capture",
+          "volume": 0.8
         },
         {
           "name": "lentonStreet",
@@ -958,13 +1002,8 @@
           "volume": 1
         },
         {
-          "name": "R6b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7",
-          "pos":  0
-        },
-        {
-          "name": "R12c",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "name": "capture",
+          "volume": 0.8
         },
         {
           "name": "lentonStreet",
@@ -983,7 +1022,7 @@
       "waypoints": {},
       "routes": {"R1": "31n"},
       "onload": "window.narrativeEndTime=totalTime+15;",
-      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } }  else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_32'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "tracks": [
         {
           "name": "Vox_N7",
@@ -991,17 +1030,35 @@
           "pos": 0
         },
         {
-          "name": "R6b",
+          "name": "capture",
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
-          "name": "R14a",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.7] : 0.7",
+          "name": "scene_31",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
           "pos":  0
         },
         {
           "name": "broadStreet",
           "volume": 0.9
+        }
+      ]
+    },
+    {
+      "name": "Scene_32",
+      "description":  "end, music stop",
+      "waypoints": {},
+      "routes": {"R1": "32"},
+      "onload": "",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } }  else if (!routes['R1'].near) { daoplayer.setScene('offRoute'); } }",
+      "tracks": [
+        {
+          "name": "scene_31",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0] : 0"
+        },
+        {
+          "name": "broadStreet",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0] : 0"
         }
       ]
     }
