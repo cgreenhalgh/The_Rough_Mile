@@ -138,6 +138,227 @@
       ]
     },
     {
+      "name": "scene_8",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_8.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_10",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_10.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_13",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_13.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_16",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_15.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_16",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_17.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_18",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_18.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_21",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_21.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_21bridge",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_21bridge.wav",
+          "filePos": 0,
+          "repeats": 1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_22",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_22.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_22bridge",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_22bridge.wav",
+          "filePos": 0,
+          "repeats": 1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_23",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_23.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_23bridge",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_23bridge.wav",
+          "filePos": 0,
+          "repeats": 1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_25",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_25.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_27",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_27.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_28",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_28.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_28bridge",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_28bridge.wav",
+          "filePos": 0,
+          "repeats": 1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
+      "name": "scene_30",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_28bridge.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.19
+        }
+      ]
+    },
+    {
       "name": "C",
       "pauseIfSilent": true,
       "files": [
