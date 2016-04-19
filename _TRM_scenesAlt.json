@@ -395,12 +395,12 @@
         },
         {
           "name": "scene_11",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.8] : 0.8"
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.8] : 0.8",
           "pos": 0
         },
         {
           "name": "scene_11bridge",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.8] : 0.8"
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.8] : 0.8",
           "pos": 0
         },
         {
@@ -764,12 +764,12 @@
         },
         {
           "name": "scene_22",
-          "volume": 0.8",
+          "volume": 0.8,
           "pos":  -2.125
         },
         {
           "name": "scene_22bridge",
-          "volume": 0.8",
+          "volume": 0.8,
           "pos":  0
         },
         {
