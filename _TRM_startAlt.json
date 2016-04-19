@@ -34,7 +34,7 @@
         },
         {
           "name": "broadStreet",
-          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0.5] 0.5",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0.5] : 0.5",
           "pos": 0
         }
       ]
@@ -53,7 +53,7 @@
       "partial": false,
       "waypoints":{},
       "onload": "",
-      "onupdate": "if (activity!='NOGPS') { daoplayer.setScene('offRoute'); } if (totalTime>window.nextGpsWarning) { daoplayer.speak('It seems like the system has encoutered a problem, the location tracking is not working. Please call 07891608500 and one of the team will come and help you', true); window.nextGpsWarning=totalTime+30;}",
+      "onupdate": "if (activity!='NOGPS') { daoplayer.setScene('offRoute'); } if (totalTime>window.nextGpsWarning) { daoplayer.speak('It seems like the system has encoutered a problem, the location tracking is not working. Please call 07891608500 and one of the team will come and help you', true); }",
       "updatePeriod":1.0,
       "description": "GPS signal has been lost for sometime, so we give them an instruction"
     }
