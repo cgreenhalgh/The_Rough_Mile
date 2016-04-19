@@ -82,8 +82,6 @@
 		"lat":52.955140,  "lng":-1.143999,
 		"description":"deviation from route outer waypoint 15"
 		}
-		
-
     ],
 
     "routes": [
@@ -184,8 +182,7 @@
 				"from": "DO14",
 				"to":"DO15",
 				"nearDistance": "20"
-			},
-			
+			}
     ]
   }
 }
