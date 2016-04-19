@@ -541,13 +541,13 @@
           "volume": 1
         },
         {
-          "name": "scene_16",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
+          "name": "scene_16riser",
+          "volume": "[sceneTime,trackVolume,sceneTime+1,pwl(routes['R1'].distanceAlong/routes['R1'].length, [0,0,1,1], trackVolume)]",
           "pos":  0
         },
         {
           "name": "scene_15",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "volume": 0.8
         },
         {
           "name": "albertStreet",
