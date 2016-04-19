@@ -146,7 +146,7 @@
           "filePos": 0,
           "repeats": -1,
           "trackPos": 0,
-          "length": 378.19
+          "length": 113.170
         }
       ]
     },
@@ -159,59 +159,46 @@
           "filePos": 0,
           "repeats": -1,
           "trackPos": 0,
-          "length": 378.19
+          "length": 113.170
         }
       ]
     },
     {
-      "name": "scene_13",
+      "name": "scene_10bridge",
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "scene_13.wav",
+          "path": "scene_10bridge.wav",
           "filePos": 0,
-          "repeats": -1,
+          "repeats": 1,
           "trackPos": 0,
-          "length": 378.19
+          "length": 9.118
         }
       ]
     },
     {
-      "name": "scene_16",
+      "name": "scene_11",
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "scene_15.wav",
+          "path": "scene_11.wav",
           "filePos": 0,
           "repeats": -1,
           "trackPos": 0,
-          "length": 378.19
+          "length": 113.170
         }
       ]
     },
     {
-      "name": "scene_16",
+      "name": "scene_11bridge",
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "scene_17.wav",
+          "path": "scene_11bridge.wav",
           "filePos": 0,
-          "repeats": -1,
+          "repeats": 1,
           "trackPos": 0,
-          "length": 378.19
-        }
-      ]
-    },
-    {
-      "name": "scene_18",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "scene_18.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 378.19
+          "length": 7.027
         }
       ]
     },
@@ -342,162 +329,6 @@
           "repeats": 1,
           "trackPos": 0,
           "length": 20.00
-        }
-      ]
-    },
-    {
-      "name": "scene_30",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "scene_28bridge.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 378.19
-        }
-      ]
-    },
-    {
-      "name": "C",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "C.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 216.18
-        }
-      ]
-    },
-    {
-      "name": "R6",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R6.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 62.15
-        }
-      ]
-    },
-    {
-      "name": "R6b",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R6b.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 62.15
-        }
-      ]
-    },
-    {
-      "name": "R12a",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R12a.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 126.04
-        }
-      ]
-    },
-    {
-      "name": "R12b",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R12b.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 124.12
-        }
-      ]
-    },
-    {
-      "name": "R12c",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R12c.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 125.21
-        }
-      ]
-    },
-    {
-      "name": "R12d",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R12d.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 139.12
-        }
-      ]
-    },
-    {
-      "name": "R14a",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R14a.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 120
-        }
-      ]
-    },
-    {
-      "name": "R14b",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "R14b.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 120
-        }
-      ]
-    },
-    {
-      "name": "stringArr",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "stringArr.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 123.23
-        }
-      ]
-    },
-    {
-      "name": "stringPad",
-      "pauseIfSilent": true,
-      "files": [
-        {
-          "path": "stringPad.wav",
-          "filePos": 0,
-          "repeats": -1,
-          "trackPos": 0,
-          "length": 123.23
         }
       ]
     }
