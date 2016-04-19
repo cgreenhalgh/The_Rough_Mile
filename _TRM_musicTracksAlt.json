@@ -320,11 +320,11 @@
       ]
     },
     {
-      "name": "scene_28bridge",
+      "name": "scene_27bridge",
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "scene_28bridge.wav",
+          "path": "scene_27bridge.wav",
           "filePos": 0,
           "repeats": 1,
           "trackPos": 0,
