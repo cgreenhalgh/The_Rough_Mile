@@ -1053,9 +1053,12 @@
           "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
-          "name": "scene_31",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8",
-          "pos":  0
+          "name": "scene_0_d&b",
+          "volume": 0.8
+        },
+        {
+          "name": "scene_0_keys",
+          "volume": 0.8
         },
         {
           "name": "broadStreet",
@@ -1072,7 +1075,11 @@
       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } }  else if (!routes['R1'].near) { daoplayer.setScene('offRoute'); } }",
       "tracks": [
         {
-          "name": "scene_31",
+          "name": "scene_0_d&b",
+          "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0] : 0"
+        },
+        {
+          "name": "scene_0_keys",
           "volume": "sceneTime<4 ? [sceneTime,trackVolume,4,0] : 0"
         },
         {
