@@ -19,21 +19,22 @@
       "tracks": [
         {
           "name": "scene_0_d&b",
-          "volume": 0.6,
+          "volume": 0.8,
           "pos": 0
         },
         {
           "name": "scene_0_keys",
-          "volume": 0.6,
+          "volume": 0.8,
           "pos": 0
         },
         {
           "name": "scene_0_pad",
-          "volume": 0
+          "volume": 0,
+          "pos": 0
         },
         {
           "name": "broadStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -50,12 +51,12 @@
       "tracks": [
         {
           "name": "Vox_N1a",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "scene_0_d&b",
-          "volume": 0.6
+          "volume": 0.8
         },
         {
           "name": "scene_0_keys",
@@ -63,11 +64,11 @@
         },
         {
           "name": "scene_0_pad",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6"
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.8] : 0.8"
         },
         {
           "name": "broadStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -83,31 +84,25 @@
       "updatePeriod": 1.0,
       "tracks": [
         {
+          "name": "scene_2aBridge",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.9] : 0.9",
+          "pos":  0
+        },
+        {
+          "name": "scene_2a",
+          "volume": 0.9,
+          "pos":  -1.175        },
+        {
           "name": "scene_0_d&b",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
         },
         {
           "name": "scene_0_pad",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
-        },
-        {
-          "name": "scene_2&4_drums",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6",
-          "pos":  0
-        },
-        {
-          "name": "scene_2_keys",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6",
-          "pos":  0
-        },
-        {
-          "name": "scene_4_keys",
-          "volume": 0,
-          "pos":  0
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
         },
         {
           "name": "Vox_N1a",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "broadStreet",
@@ -115,7 +110,7 @@
         },
         {
           "name": "stoneyStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -131,24 +126,16 @@
       "tracks": [
         {
           "name": "Vox_N1b",
-          "volume": 1,
+          "volume": 0.8,
           "pos": 0
         },
         {
-          "name": "scene_2&4_drums",
-          "volume": 0.6
-        },
-        {
-          "name": "scene_2_keys",
-          "volume": 0.6
-        },
-        {
-          "name": "scene_4_keys",
-          "volume": 0
+          "name": "scene_2a",
+          "volume": 0.9
         },
         {
           "name": "stoneyStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -163,19 +150,26 @@
       "tracks": [
         {
           "name": "Vox_N1b",
-          "volume": 1
+          "volume": 0.8
+        },
+        {
+          "name": "scene_2a",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
+        },
+        {
+          "name": "scene_4bridge",
+          "volume": 0.9,
+          "pos": 0
         },
         {
           "name": "scene_2&4_drums",
-          "volume": 0.6
-        },
-        {
-          "name": "scene_2_keys",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.9] : 0.9",
+          "pos": -0.19
         },
         {
           "name": "scene_4_keys",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6"
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.9] : 0.9",
+          "pos": -0.19
         },
         {
           "name": "stoneyStreet",
@@ -183,7 +177,7 @@
         },
         {
           "name": "waserGate",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -199,20 +193,20 @@
       "tracks": [
         {
           "name": "Vox_N1c",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "scene_2&4_drums",
-          "volume": 0.6
+          "volume": 0.9
         },
         {
           "name": "scene_4_keys",
-          "volume": 0.6
+          "volume": 0.9
         },
         {
           "name": "waserGate",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -227,17 +221,17 @@
       "tracks": [
         {
           "name": "Vox_C1",
-          "volume": 1,
+          "volume": 0.8,
           "pos": -5
         },
         {
           "name": "scene_6_pad",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.6] : 0.6",
+          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.9] : 0.9",
           "pos":  0
         },
         {
           "name": "scene_6_accent",
-          "volume": 0.4,
+          "volume": 0.7,
           "pos":  0
         },
         {
@@ -254,7 +248,7 @@
         },
         {
           "name": "fletcherGate",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.75] : 0.65",
           "pos":  0
         }
       ]
@@ -270,16 +264,16 @@
       "tracks": [
         {
           "name": "Vox_C1",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "capture_accent",
-          "volume": 0.7,
+          "volume": 0.9,
           "pos":  0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.5] : 0.5",
+          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.9] : 0.9",
           "pos":  0
         },
         {
@@ -288,7 +282,7 @@
         },
         {
           "name": "fletcherGate",
-          "volume": 0.9
+          "volume": 0.65
         }
       ]
     },
@@ -303,25 +297,25 @@
       "tracks": [
         {
           "name": "Vox_C1",
-          "volume": 1
+          "volume": 0.8
         },
         {
-          "name": "scene_8",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.5] : 0.5",
+          "name": "scene_11",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,1] : 1",
            "pos":  0
         },
         {
           "name": "scene_11bridge",
-          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.5] : 0.5",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.9] : 0.9",
            "pos":  0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0] : 0"
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
         },
         {
           "name": "fletcherGate",
-          "volume": 0.9
+          "volume": 0.65
         }
       ]
     },
@@ -336,16 +330,16 @@
       "tracks": [
         {
           "name": "Vox_N2",
-          "volume": 1,
+          "volume": 0.9,
           "pos":  0
         },
         {
-          "name": "scene_8",
-          "volume": 0.5
+          "name": "scene_11",
+          "volume": 0.9
         },
         {
           "name": "fletcherGate",
-          "volume": 0.9
+          "volume": 0.65
         }
       ]
     },
@@ -360,25 +354,25 @@
       "tracks": [
         {
           "name": "Vox_N2",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "scene_10",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.5] : 0.5",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.9] : 0.8",
           "pos": 0
         },
         {
           "name": "scene_10bridge",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.5] : 0.5",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.9] : 0.6",
           "pos": 0
         },
         {
-          "name": "scene_8",
+          "name": "scene_11",
           "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
         },
         {
           "name": "fletcherGate",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -393,16 +387,16 @@
       "tracks": [
         {
           "name": "Vox_N2",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "scene_11",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.5] : 0.5",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.9] : 0.9",
           "pos": 0
         },
         {
           "name": "scene_11bridge",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.5] : 0.5",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.8] : 0.8",
           "pos": 0
         },
         {
@@ -411,7 +405,7 @@
         },
         {
           "name": "fletcherGate",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -426,17 +420,17 @@
       "tracks": [
         {
           "name": "Vox_C2",
-          "volume": 1,
-          "pos": -5
+          "volume": 0.8,
+          "pos": -4.5
         },
         {
           "name": "capture_accent",
-          "volume": 0.6,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.5] : 0.5",
+          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.8] : 0.8",
           "pos":  0
         },
         {
@@ -445,7 +439,7 @@
         },
         {
           "name": "weekdayCross",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         },
         {
@@ -465,16 +459,16 @@
       "tracks": [
         {
           "name": "Vox_C2",
-          "volume": 1
+          "volume": 0.8
         },
         {
-          "name": "scene_25",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6",
+          "name": "scene_13",
+          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0.8] : 0.8",
           "pos": 0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
+          "volume": "sceneTime<1.5 ? [sceneTime,trackVolume,1.5,0] : 0"
         },
         {
           "name": "weekdayCross",
@@ -482,14 +476,14 @@
         },
         {
           "name": "middlePavement",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.75",
           "pos":  0
         }
       ]
     },
     {
       "name": "Scene_14",
-      "description":  "narration and music entering at enterance to The Broadmarsh Centre",
+      "description":  "narration entering at enterance to The Broadmarsh Centre",
       "waypoints": {},
       "routes": {"R1": "14n", "Rnext": "15m"},
       "onload": "window.narrativeEndTime=totalTime+140;",
@@ -498,16 +492,16 @@
       "tracks": [
         {
           "name": "Vox_N3",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  0
         },
         {
-          "name": "scene_25",
-          "volume": 0.6
+          "name": "scene_13",
+          "volume": 0.8
         },
         {
           "name": "middlePavement",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -515,23 +509,28 @@
       "name": "Scene_15",
       "description":  "music transition into Albert Street",
       "waypoints": {},
-      "routes": {"R1": "15m", "Rnext": "16m"},
+      "routes": {"R1": "15m", "Rnext": "17n"},
       "onload": "",
-      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_16'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_17'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
         {
           "name": "Vox_N3",
-          "volume": 1
+          "volume": 0.8
         },
         {
-          "name": "scene_27",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0.6] : 0.6",
-          "pos":  0
+          "name": "scene_13",
+          "volume": "sceneTime<0.35 ? [sceneTime,trackVolume,0.35,0] : 0"
         },
         {
-          "name": "scene_25",
-          "volume": "sceneTime<0.5 ? [sceneTime,trackVolume,0.5,0] : 0"
+          "name": "scene_15",
+          "volume": "sceneTime<0.35 ? [sceneTime,trackVolume,0.35,0.8] : 0.8",
+          "pos": 0
+        },
+        {
+          "name": "scene_16Arp",
+          "volume": "[sceneTime,trackVolume,sceneTime+1,pwl(routes['R1'].distanceAlong/routes['R1'].length, [0,0,1,0.7], trackVolume)]",
+          "pos": 0
         },
         {
           "name": "middlePavement",
@@ -539,35 +538,7 @@
         },
         {
           "name": "albertStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
-          "pos":  0
-        }
-      ]
-    },
-    {
-      "name": "Scene_16",
-      "description":  "music enters on approach to St. Peters Square",
-      "waypoints": {},
-      "routes": {"R1": "16m", "Rnext": "17n"},
-      "onload": "",
-      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Scene_17'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
-      "updatePeriod":1.0,
-      "tracks": [
-        {
-          "name": "Vox_N3",
-          "volume": 1
-        },
-        {
-          "name": "scene_27",
-          "volume": 0.5
-        },
-        {
-          "name": "albertStreet",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
-        },
-        {
-          "name": "StPetersSquare",
-          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.75",
           "pos":  0
         }
       ]
@@ -583,26 +554,35 @@
       "tracks": [
         {
           "name": "Vox_C3",
-          "volume": 1,
+          "volume": 0.8,
           "pos": -4
         },
         {
-          "name": "scene_27",
-          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0] : 0"
+          "name": "scene_16bridge",
+          "volume": 0.9,
+          "pos": 0
+        },
+        {
+          "name": "scene_15",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
+        },
+        {
+          "name": "scene_16Arp",
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
         },
         {
           "name": "capture_accent",
-          "volume": 0.6,
-          "pos":  0
+          "volume": 0.8,
+          "pos":  -2.127
         },
         {
           "name": "capture",
-          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0.6] : 0.6",
-          "pos":  0
+          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.9] : 0.9",
+          "pos":  -2.127
         },
         {
           "name": "StPetersSquare",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -612,22 +592,22 @@
       "waypoints": {},
       "routes": {"R1": "18nm", "Rnext": "19m1"},
       "onload": "window.narrativeEndTime=totalTime+84;",
-      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_19'); } else if (!routes['R1'].near && ! routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Scene_19'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
       "updatePeriod":1.0,
       "tracks": [
         {
           "name": "Vox_N4",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  -2
         },
         {
           "name": "scene_2&4_drums",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.6] : 0.6",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.9] : 0.9",
           "pos":  0
         },
         {
           "name": "scene_4_keys",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.5] : 0.5",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.9] : 0.9",
           "pos":  0
         },
         {
@@ -639,8 +619,8 @@
           "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0] : 0"
         },
         {
-          "name": "exchangeWalk",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "name": "georgeStreet",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -656,16 +636,16 @@
       "tracks": [
         {
           "name": "Vox_N4",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "capture_accent",
-          "volume": 0.6,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.6,0.5] : 0.5",
+          "volume": "sceneTime<0.6 ? [sceneTime,trackVolume,0.8,0.9] : 0.9",
           "pos":  0
         },
         {
@@ -682,7 +662,7 @@
         },
         {
           "name": "marketSquare",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -698,16 +678,16 @@
       "tracks": [
         {
           "name": "Vox_C4",
-          "volume": 1,
+          "volume": 0.8,
           "pos": 0
         },
         {
           "name": "capture",
-          "volume": 0.5
+          "volume": 0.9
         },
         {
           "name": "marketSquare",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -722,17 +702,17 @@
       "tracks": [
         {
           "name": "Vox_N5a",
-          "volume": 1,
+          "volume": 0.9,
           "pos":  -4.5
         },
         {
           "name": "scene_21",
-          "volume": 0.5,
+          "volume": 0.85,
           "pos":  -4.106
         },
         {
           "name": "scene_21bridge",
-          "volume": 0.5,
+          "volume": 0.85,
           "pos":  0
         },
         {
@@ -761,22 +741,22 @@
       "tracks": [
         {
           "name": "Vox_N5b",
-          "volume": 1,
-          "pos": -3
+          "volume": 0.9,
+          "pos": -4
         },
         {
           "name": "scene_22",
-          "volume": 0.5,
+          "volume": 0.85,
           "pos":  -2.13
         },
         {
           "name": "scene_22bridge",
-          "volume": 0.5,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "scene_21",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
         },
         {
           "name": "lowRow",
@@ -784,7 +764,7 @@
         },
         {
           "name": "clumberStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.75] : 0.75",
           "pos":  0
         }
       ]
@@ -800,16 +780,16 @@
       "tracks": [
         {
           "name": "Vox_N5b",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "scene_23",
-          "volume": 0.5,
+          "volume": 0.9,
           "pos":  0
         },
         {
           "name": "scene_23bridge",
-          "volume": 0.5,
+          "volume": 0.9,
           "pos":  0
         },
         {
@@ -822,7 +802,7 @@
         },
         {
           "name": "lincolnStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -838,27 +818,30 @@
       "tracks": [
         {
           "name": "Vox_C5",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "capture_accent",
-          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.6] : 0.6",
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.5] : 0.5",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.9] : 0.9",
           "pos":  0
+        },
+        {
+          "name": "scene_23bridge",
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
           "name": "scene_23",
-          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0",
-          "pos":  0
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0] : 0"
         },
         {
           "name": "lincolnStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -873,11 +856,16 @@
       "tracks": [
         {
           "name": "Vox_C5",
-          "volume": 1
+          "volume": 0.8
         },
         {
-          "name": "scene_25",
-          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.5] : 0.5",
+          "name": "scene_2&4_drums",
+          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.9] : 0.9",
+          "pos":  0
+        },
+        {
+          "name": "scene_2_keys",
+          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.9] : 0.9",
           "pos":  0
         },
         {
@@ -886,7 +874,7 @@
         },
         {
           "name": "lincolnStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -901,12 +889,16 @@
       "tracks": [
         {
           "name": "Vox_N6a",
-          "volume": 1,
+          "volume": 0.8,
           "pos": 0
         },
         {
-          "name": "scene_25",
-          "volume": 0.5
+          "name": "scene_2&4_drums",
+          "volume": 0.9
+        },
+        {
+          "name": "scene_2_keys",
+          "volume": 0.9
         },
         {
           "name": "lincolnStreet",
@@ -914,7 +906,7 @@
         },
         {
           "name": "georgeStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -930,20 +922,25 @@
       "tracks": [
         {
           "name": "Vox_N6b",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "scene_27",
-          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.6] : 0.6"
+          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.9] : 0.9",
+          "pos": 0
         },
         {
-          "name": "scene_25",
+          "name": "scene_2&4_drums",
+          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0] : 0"
+        },
+        {
+          "name": "scene_2_keys",
           "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0] : 0"
         },
         {
           "name": "georgeStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -958,21 +955,26 @@
       "tracks": [
         {
           "name": "Vox_N6b",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "scene_27",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0] : 0"
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0] : 0"
         },
         {
           "name": "scene_27bridge",
-          "volume": "sceneTime<0.3 ? [sceneTime,trackVolume,0.3,0.6] : 0.6",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.9] : 0.9",
           "pos":  0
         },
         {
+          "name": "capture_accent",
+          "volume": "sceneTime<0.2 ? [sceneTime,trackVolume,0.2,0.8] : 0.8",
+          "pos":  -3.168
+        },
+        {
           "name": "capture",
-          "volume": 0.5,
-          "pos":  -7.08
+          "volume": "sceneTime<1 ? [sceneTime,trackVolume,1,0.9] : 0.9",
+          "pos":  -3.618
         },
         {
           "name": "georgeStreet",
@@ -980,7 +982,7 @@
         },
         {
           "name": "lentonStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -996,16 +998,16 @@
       "tracks": [
         {
           "name": "Vox_C6",
-          "volume": 1,
+          "volume": 0.8,
           "pos":  0
         },
         {
           "name": "capture",
-          "volume": 0.5
+          "volume": 0.9
         },
         {
           "name": "lentonStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -1020,11 +1022,11 @@
       "tracks": [
         {
           "name": "Vox_C6",
-          "volume": 1
+          "volume": 0.8
         },
         {
           "name": "capture",
-          "volume": 0.5
+          "volume": 0.9
         },
         {
           "name": "lentonStreet",
@@ -1032,7 +1034,7 @@
         },
         {
           "name": "broadStreet",
-          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.9] : 0.9",
+          "volume": "sceneTime<3 ? [sceneTime,trackVolume,3,0.8] : 0.8",
           "pos":  0
         }
       ]
@@ -1043,28 +1045,24 @@
       "waypoints": {},
       "routes": {"R1": "31n"},
       "onload": "window.narrativeEndTime=totalTime+15;",
-      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime+2) { daoplayer.setScene('Scene_32'); } else if (!routes['R1'].near) { daoplayer.setScene('offRoute'); } }",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime) { daoplayer.setScene('Scene_32'); } else if (!routes['R1'].near) { daoplayer.setScene('offRoute'); } }",
       "tracks": [
         {
           "name": "Vox_N7",
-          "volume": 1,
+          "volume": 0.8,
           "pos": 0
         },
         {
           "name": "capture",
-          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0] : 0"
+          "volume": "sceneTime<2.5 ? [sceneTime,trackVolume,2.5,0] : 0"
         },
         {
-          "name": "scene_0_d&b",
-          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.6] : 0.6"
-        },
-        {
-          "name": "scene_0_keys",
-          "volume": "sceneTime<1.7 ? [sceneTime,trackVolume,1.7,0.6] : 0.6"
+          "name": "scene_31",
+          "volume": "sceneTime<2.5 ? [sceneTime,trackVolume,2.5,0.9] : 0.9"
         },
         {
           "name": "broadStreet",
-          "volume": 0.9
+          "volume": 0.8
         }
       ]
     },
@@ -1077,16 +1075,12 @@
       "onupdate": "",
       "tracks": [
         {
-          "name": "scene_0_d&b",
-          "volume": "sceneTime<6 ? [sceneTime,trackVolume,6,0] : 0"
-        },
-        {
-          "name": "scene_0_keys",
-          "volume": "sceneTime<6 ? [sceneTime,trackVolume,6,0] : 0"
+          "name": "scene_31",
+          "volume": "sceneTime<7 ? [sceneTime,trackVolume,7,0] : 0"
         },
         {
           "name": "broadStreet",
-          "volume": "sceneTime<6 ? [sceneTime,trackVolume,6,0] : 0"
+          "volume": "sceneTime<7 ? [sceneTime,trackVolume,7,0] : 0"
         }
       ]
     }
