@@ -188,7 +188,18 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "N7.wav",
+          "path": "N7a.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    },
+    {
+      "name": "Error1",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Error1.wav",
           "filePos": 0,
           "trackPos": 0
         }
