@@ -27,7 +27,7 @@
 		},
 		{
 		"name": "SS2",
-		"lat": 52.953437, 	"lng": -1.143641,
+		"lat": 52.953475, 	"lng": -1.143656,
 		"description": "fish and chips shop on Stoney street"
 		},
 		{
@@ -48,37 +48,37 @@
 
 		{
 		"name": "FG2",
-		"lat": 52.952889, "lng": -1.145432,
+		"lat": 52.952935, "lng": -1.145391,
 		"description": "Tram stop capture on Fletcher Gate"
 		},
 		{
 		"name": "FG3",
-		"lat": 52.952837, "lng": -1.145477,
+		"lat": 52.952817, "lng": -1.145491,
 		"description": "leaving tram stop capture on Fletcher Gate"
 		},
 		{
 		"name": "FG4",
-		"lat": 52.952436, "lng": -1.145700,
+		"lat": 52.952439, "lng": -1.145743,
 		"description": "Outside of Fletcher Gate car park enterance"
 		},
 		{
 		"name": "FG5",
-		"lat": 52.951956, "lng": -1.145828,
+		"lat": 52.951999, "lng": -1.145857,
 		"description": "Nook by Yo Sushi on Fletcher Gate"
 		},
 		{
 		"name": "FG6",
-		"lat": 52.952436, "lng": -1.145700,
+		"lat": 52.951881, "lng": -1.145913,
 		"description": "Just down from nook at Yo Sushi on Fletcher Gate"
 		},
 		{
 		"name": "WC",
-		"lat":52.951576,  "lng":-1.146057,
+		"lat":52.951559,  "lng":-1.146058,
 		"description":"Weekday Cross, where restaurant angles away from road"
 		},
 		{
 		"name": "MP1",
-		"lat":52.951498,  "lng":-1.146371,
+		"lat":52.951516,  "lng":-1.146325,
 		"description": "Transition into Middle Pavement"
 		},
 		{
@@ -93,12 +93,12 @@
 		},
 		{
 		"name": "sPS1",
-		"lat":52.951991,  "lng":-1.148960,
+		"lat":52.951789,  "lng":-1.148840,
 		"description":"approach St Peters square"
 		},
 		{
 		"name": "sPS2",
-		"lat":52.952114,  "lng":-1.149024,
+		"lat":52.952086,  "lng":-1.149012,
 		"description":"St Peters square - Trees"
 		},
 		{
@@ -138,7 +138,7 @@
 		},
 		{
 		"name": "LR",
-		"lat":52.953684,  "lng":-1.149282,
+		"lat":52.953645,  "lng":-1.149254,
 		"description":"Low Row by council house"
 		},
 		{
@@ -153,7 +153,7 @@
 		},
 		{
 		"name": "LS2",
-		"lat":52.954408,  "lng":-1.147354,
+		"lat":52.954412,  "lng":-1.147400,
 		"description":"Capture point by HSBC Cashpoint in Lincoln street"
 		},
 		{
@@ -178,7 +178,7 @@
 		},
 		{
 		"name": "OLS2",
-		"lat":52.954400,  "lng":-1.144958,
+		"lat":52.954389,  "lng":-1.144998,
 		"description":"Half-way down Old Lenton Street"
 		},
 		{
@@ -358,10 +358,10 @@
 			},
 			{
 				"name": "20n",
-				"from": "MS5",
-				"to":"MS6",
+				"from": "MS6",
+				"to":"LR",
 				"description": "Old Market square along row of seats - Narration enters",
-				"nearDistance": "25"
+				"nearDistance": "30"
 			},
 			{
 				"name": "21nm",
