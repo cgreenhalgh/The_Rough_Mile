@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "Story composition",
+    "description":  "Merge file for the Rough Mile walk"
+  },
+
+  "merge": [
+    "_TRM_voiceTracksFinal.json",
+    "_TRM_musicTracksFinal.json",
+    "_TRM_ambientTracksFinal.json",
+    "_TRM_contextRoutesFinal.json",
+    "_TRM_contextRoutesOffFinal.json",
+    "_TRM_scenesFinal.json",
+    "_TRM_startFinal.json"
+  ],
+  "defaultScene": "getGPS"
+}
