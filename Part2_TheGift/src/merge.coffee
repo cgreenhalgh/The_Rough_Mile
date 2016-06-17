@@ -7,6 +7,9 @@ xlsx = require 'xlsx'
 fs = require 'fs'
 mustache = require 'mustache'
 
+console.log 'read defaults.json'
+defaults = JSON.parse fs.readFileSync 'defaults.json',{encoding:'utf8'}
+
 infile = process.argv[2];
 console.log 'read spreadsheet '+infile
 workbook = xlsx.readFile infile
@@ -15,12 +18,12 @@ cellid = (c,r) ->
   p = String(r+1)
   rec = (c) ->
     p = (String.fromCharCode 'A'.charCodeAt(0)+(c % 26)) + p
-    c = Math.floor c/26
+    c = Math.floor (c/26)
     if c!=0
-      rec c
+      rec c-1
   rec c
   p 
-#console.log 'A1 = '+cellid(0,0)+' '+(JSON.stringify sheet[cellid(0,0)]) 
+console.log 'AA1 = '+cellid(26,0)+' '+(JSON.stringify sheet[cellid(26,0)]) 
 #columns = []
 
 templates = fs.readdirSync 'templates'
@@ -30,16 +33,21 @@ readrow = (r) ->
   data = {}
   data.id = sheet[cellid(0,r)]?.v
   for c in [1..1000]
-    head = sheet[cellid(c,0)]?.v
+    head = sheet[cellid(c,0)]?.v?.toLowerCase()
     if not head?
       break
-    m = head.match /^((Answer|Track)[1-6])$/
+    m = head.match /^((answer|track)[1-6])$/
     if m?
       track = m[1]
-
     if data[track]==undefined
       data[track] = {}
-    data[track][head] = sheet[cellid(c,r)]?.v
+      for k,v of defaults[m[2]]
+        data[track][k] = v
+      #console.log 'add defaults for '+m[2]+': '+(JSON.stringify data[track])
+    
+    val = sheet[cellid(c,r)]?.v
+    if val?
+      data[track][head] = sheet[cellid(c,r)]?.v
   data
 for r in [1..1000]
   cell = sheet[cellid(0,r)]
@@ -63,3 +71,5 @@ for r in [1..1000]
       console.log 'Generate '+outfilename
       outfile = mustache.render infile, data
       fs.writeFileSync outfilename, outfile, {encoding: 'utf8'}
+      if outfilename.indexOf '.json' >= 0
+        JSON.parse outfile

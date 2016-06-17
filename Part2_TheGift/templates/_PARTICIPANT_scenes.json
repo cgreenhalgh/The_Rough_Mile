@@ -73,7 +73,7 @@
         },
         {
           "name": "Track1",
-          "volume": "[0,0.7,6,0.7,8,1]",
+          "volume": "[0,{{track1.introvolume}},{{answer1.length}}+0.5,{{track1.introvolume,{{answer1.length}}+2,{{track1.trackvolume}}]",
           "pos":  0
         },
         {
@@ -104,7 +104,7 @@
         },
         {
           "name": "Track1",
-          "volume": "[0,1,1.5,0.75,14.5,0.75,15.5,1]"
+          "volume": "[sceneTime,trackVolume,1.5,{{track1.introvolume}},14.5,{{track1.introvolume}},15.5,{{track1.trackvolume}}]"
         }
       ]
     },
@@ -126,13 +126,13 @@
         },
         {
           "name": "Track2_intro",
-          "volume": "[0,0.45,4.8,0.45,5.2,0]",
+          "volume": "{{track2.intro_length}}==0 && sceneTime<{{answer2.length}}+2 ? [0,0,0.5,{{track2.introvolume}},{{answer2.length}}+0.5,{{track2.introvolume}},{{answer2.length}}+0.9,0]: 0",
           "pos":  0
         },
         {
           "name": "Track2",
-          "volume": "[0,0,4.8,0,5.2,0.85]",
-          "pos":  0
+          "volume": "{{track2.intro_length}}==0 ? ([0,{{track2.introvolume}},{{anwer2.length}}+0.5,{{track2.introvolume}},{{answer2.length}}+2,{{track2.trackvolume}}]) : (sceneTime>=2 ? [0,0,{{answer2.length}}+0.5,0,{{answer2.length}}+0.9,{{track2.trackvolume}}] : 0)",
+          "pos":  -{{answer2.length}}
         },
         {
           "name": "Track1",

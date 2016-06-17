@@ -84,10 +84,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{Answer1.Answer1}}.wav",
+          "path": "{{answer1.answer1}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": {{Answer1.length}}
+          "length": {{answer1.length}}
         }
       ]
     },
@@ -96,10 +96,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "2841530B_2.wav",
+          "path": "{{answer2.answer2}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": 4.26
+          "length": {{answer2.length}}
         }
       ]
     },
@@ -108,10 +108,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "2841530B_3.wav",
+          "path": "{{answer3.answer3}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": 6.21
+          "length": {{answer3.length}}
         }
       ]
     },
@@ -120,10 +120,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "2841530B_4.wav",
+          "path": "{{answer4.answer4}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": 5.875
+          "length": {{answer4.length}}
         }
       ]
     },
@@ -132,10 +132,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "2841530B_5.wav",
+          "path": "{{answer5.answer5}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": 15.81
+          "length": {{answer5.length}}
         }
       ]
     },
@@ -144,10 +144,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "2841530B_6.wav",
+          "path": "{{answer6.answer6}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": 4.105
+          "length": {{answer6.length}}
         }
       ]
     },
@@ -156,15 +156,15 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Emmy The Great - 01. Swimming Pool.wav",
-          "filePos": 0,
+          "path": "{{track1.track1}}",
+          "filePos": {{track1.filepos}},
           "trackPos": 0,
-          "length": 246.5
+          "length": {{track1.length}}
         },
         {
           "path": "capture.wav",
           "filePos": 0,
-          "trackPos": 245,
+          "trackPos": {{track1.capturepos}},
           "length": 378.75
         }
       ]
@@ -174,15 +174,15 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Squeeze - 06. Pulling Mussels (From The Shell).wav",
-          "filePos": 0,
+          "path": "{{track2.track2}}",
+          "filePos": {{track2.filepos}},
           "trackPos": 0,
-          "length": 236
+          "length": {{track2.length}}
         },
         {
           "path": "capture.wav",
           "filePos": 0,
-          "trackPos": 232,
+          "trackPos": {{track2.capturepos}},
           "length": 378.75
         }
       ]
@@ -192,15 +192,15 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Busted - 16. Thunderbirds Are Go.wav",
-          "filePos": 0,
+          "path": "{{track3.track3}}",
+          "filePos": {{track3.filepos}},
           "trackPos": 0,
-          "length": 189.188
+          "length": {{track3.length}}
         },
         {
           "path": "capture.wav",
           "filePos": 0,
-          "trackPos": 186.5,
+          "trackPos": {{track3.capturepos}},
           "length": 378.75
         }
       ]
@@ -210,15 +210,15 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "David Bowie - 03. Let's Dance.wav",
-          "filePos": 0,
+          "path": "{{track4.track4}}",
+          "filePos": {{track4.filepos}},
           "trackPos": 0,
-          "length": 457.195
+          "length": {{track4.length}}
         },
         {
           "path": "capture.wav",
           "filePos": 0,
-          "trackPos": 454,
+          "trackPos": {{track4.capturepos}},
           "length": 378.75
         }
       ]
@@ -228,15 +228,15 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Johnny Cash - 17. Folsom Prison Blues.wav",
-          "filePos": 1.227,
+          "path": "{{track5.track5}}",
+          "filePos": {{track5.filepos}},
           "trackPos": 0,
-          "length": 164.7
+          "length": {{track5.length}}
         },
         {
           "path": "capture.wav",
           "filePos": 0,
-          "trackPos": 163.5,
+          "trackPos": {{track5.capturepos}},
           "length": 378.75
         }
       ]
@@ -246,15 +246,15 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "The Specials - 02. A Message to You Rudy.wav",
-          "filePos": 0,
+          "path": "{{track6.track6}}",
+          "filePos": {{track6.filepos}},
           "trackPos": 0,
-          "length": 171.5
+          "length": {{track6.length}}
         },
         {
           "path": "capture.wav",
           "filePos": 0,
-          "trackPos": 168,
+          "trackPos": {{track6.capturepos}},
           "length": 378.75
         }
       ]
@@ -264,11 +264,11 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Emmy The Great - 01. Swimming Pool.wav",
-          "filePos": 0,
+          "path": "{{track1.track1}}",
+          "filePos": {{track1.intro_filepos}},
           "trackPos": 0,
-          "length": 0,
-          "repeats": -1
+          "length": {{track1.intro_length}},
+          "repeats": 10
         }
       ]
     },
@@ -277,11 +277,11 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Squeeze - 06. Pulling Mussels (From The Shell).wav",
-          "filePos": 118.106,
+          "path": "{{track2.track2}}",
+          "filePos": {{track2.intro_filepos}},
           "trackPos": 0,
-          "length": 6.684,
-          "repeats": -1
+          "length": {{track2.intro_length}},
+          "repeats": 10
         }
       ]
     },
@@ -290,11 +290,11 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Busted - 16. Thunderbirds Are Go.wav",
-          "filePos": 0,
+          "path": "{{track3.track3}}",
+          "filePos": {{track3.intro_filepos}},
           "trackPos": 0,
-          "length": 0,
-          "repeats": -1
+          "length": {{track3.intro_length}},
+          "repeats": 10
         }
       ]
     },
@@ -303,11 +303,11 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "David Bowie - 03. Let's Dance.wav",
-          "filePos": 0,
+          "path": "{{track4.track4}}",
+          "filePos": {{track4.intro_filepos}},
           "trackPos": 0,
-          "length": 0,
-          "repeats": -1
+          "length": {{track4.intro_length}},
+          "repeats": 10
         }
       ]
     },
@@ -316,11 +316,11 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "Johnny Cash - 17. Folsom Prison Blues.wav",
-          "filePos": 109.897,
+          "path": "{{track5.track5}}",
+          "filePos": {{track5.intro_filepos}},
           "trackPos": 0,
-          "length": 18.038,
-          "repeats": -1
+          "length": {{track5.intro_length}},
+          "repeats": 10
         }
       ]
     },
@@ -329,10 +329,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "The Specials - 02. A Message to You Rudy.wav",
-          "filePos": 0,
+          "path": "{{track6.track6}}",
+          "filePos": {{track6.intro_filepos}},
           "trackPos": 0,
-          "length": 0,
+          "length": {{track6.intro_length}},
           "repeats": -1
         }
       ]
