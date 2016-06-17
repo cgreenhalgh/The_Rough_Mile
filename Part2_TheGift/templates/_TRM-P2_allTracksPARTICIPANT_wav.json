@@ -84,10 +84,10 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "2841530B_1.wav",
+          "path": "{{Answer1.Answer1}}.wav",
           "filePos": 0,
           "trackPos": 0,
-          "length": 5.41
+          "length": {{Answer1.length}}
         }
       ]
     },

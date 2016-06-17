@@ -7,10 +7,10 @@
   },
 
   "merge": [
-    "_TRM-P2_allTracks281530B_wav.json",
+    "_TRM-P2_allTracks{{id}}_wav.json",
     "_TRM-P2_contextRoutes.json",
     "_TRM-P2_contextRoutesOff.json",
-    "_2841530B_scenes.json",
+    "_{{id}}_scenes.json",
     "_TRM-P2_start.json"
   ],
   "defaultScene": "getGPS"

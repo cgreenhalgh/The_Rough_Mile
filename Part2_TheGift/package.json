@@ -1,6 +1,15 @@
 {
-	"name": "rough-mile-merge",
-	"version": "0.0.1",
-	"description": "generate conposition files for the Rough Mile part 2 by merging values from spreadsheet"
+  "name": "rough-mile-merge",
+  "version": "0.0.1",
+  "description": "generate conposition files for the Rough Mile part 2 by merging values from spreadsheet",
+  "dependencies": {
+    "mustache": "^2.2.1",
+    "xlsx": "^0.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/*.coffee"
+  }
 }
-
