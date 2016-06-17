@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "_TRM_scenesAlt",
+    "description":  "The Rough Mile scenes"
+  },
+
+  "scenes": [
+    {
+      "name": "Scene0_musicStart",
+      "description":  "Music start at RoughTrade Records",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "0", "Rnext": "1"},
+      "onload": "",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Question1'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "scene_0_d&b",
+          "volume": 0.8,
+          "pos": 0
+        },
+        {
+          "name": "scene_0_keys",
+          "volume": 0.8,
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "name": "Question1",
+      "description":  "first question along broad street and stoney street",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "1", "Rnext": "2"},
+      "onload": "window.narrativeEndTime=totalTime+12.45;",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Answer1_&_Track1'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Question1",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "scene_0_d&b",
+          "volume": 0.75
+        },
+        {
+          "name": "scene_0_keys",
+          "volume": 0.75
+        }
+      ]
+    },
+    {
+      "name": "Answer1_&_Track1",
+      "description":  "answer abd track along Stoney Sreet, Wasergate and Fletchergate",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "2", "R2": "3", "R3": "4", "Rnext": "5"},
+      "onload": "",
+       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Question2'); } else if (!routes['R1'].near && !routes['R2'].near && !routes['R3'].near && !routes['R4'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Answer1",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track1",
+          "volume": "[0,0.7,6,0.7,8,1]",
+          "pos":  0
+        },
+        {
+          "name": "scene_0_d&b",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        },
+        {
+          "name": "scene_0_keys",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        }
+      ]
+    },
+    {
+      "name": "Question2",
+      "description":  "Second queston half-way along Fletchergate",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "5", "Rnext": "6"},
+      "onload": "window.narrativeEndTime=totalTime+14.38;",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Answer2_&_Track2'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Question2",
+          "volume": 0.75,
+          "pos":  0
+        },
+        {
+          "name": "Track1",
+          "volume": "[0,1,1.5,0.75,14.5,0.75,15.5,1]"
+        }
+      ]
+    },
+    {
+      "name": "Answer2_&_Track2",
+      "description":  "answer and track along fletchergate and Middle Pavement",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "6", "R2": "7", "Rnext": "8"},
+      "onload": "",
+       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Question3'); } else if (!routes['R1'].near && !routes['R2'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Answer2",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track2_intro",
+          "volume": "[0,0.45,4.8,0.45,5.2,0]",
+          "pos":  0
+        },
+        {
+          "name": "Track2",
+          "volume": "[0,0,4.8,0,5.2,0.85]",
+          "pos":  0
+        },
+        {
+          "name": "Track1",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        }
+      ]
+    },
+    {
+      "name": "Question3",
+      "description":  "Third question at Albert Street",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "8", "Rnext": "9" },
+      "onload": "window.narrativeEndTime=totalTime+13;",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Answer3_&_Track3'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Question3",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track2",
+          "volume": "[0,0.85,1.5,0.5,13,0.5,14,0.85]"
+        }
+      ]
+    },
+    {
+      "name": "Answer3_&_Track3",
+      "description":  "Answer and track along Albert Street, St Peter's Sqaure, Exchange walk and Market Square",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "9", "R2": "10", "Rnext": "11" },
+      "onload": "",
+       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Question4'); } else if (!routes['R1'].near && !routes['R2'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Answer3",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track3",
+          "volume": "[0,0.3,6.5,0.3,8,0.6]",
+          "pos":  0
+        },
+        {
+          "name": "Track2",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        }
+      ]
+    },
+    {
+      "name": "Question4",
+      "description":  "forth question in market Square",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "11", "Rnext": "12a"},
+      "onload": "window.narrativeEndTime=totalTime+12.15;",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Answer4_&_Track4'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Question4",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track3",
+          "volume": "[0,0.6,1.5,0.3,12.2,0.3,13.2,0.6]"
+        }
+      ]
+    },
+    {
+      "name": "Answer4_&_Track4",
+      "description":  "answer and new track for question 4",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "12a", "R2": "12b", "R3": "12c", "R4": "12d", "R5": "13", "Rnext": "14"},
+      "onload": "",
+       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Question5'); } else if (!routes['R1'].near && !routes['R2'].near && !routes['R3'].near && !routes['R4'].near && !routes['R5'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Answer4",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track4",
+          "volume": "[0,0.4,6,0.4,8,0.7]",
+          "pos":  0
+        },
+        {
+          "name": "Track3",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        }
+      ]
+    },
+    {
+      "name": "Question5",
+      "description":  "fifth question on Clumber Street",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "14", "Rnext": "15"},
+      "onload": "window.narrativeEndTime=totalTime+9.05;",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Answer5_&_Track5'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Question5",
+          "volume": 0.8,
+          "pos":  0
+        },
+        {
+          "name": "Track4",
+          "volume": "[0,0.7,1.5,0.4,9.1,0.4,10,0.7]"
+        }
+      ]
+    },
+    {
+      "name": "Answer5_&_Track5",
+      "description":  "answer and new track for question 5",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "15", "R2": "16", "Rnext": "17"},
+      "onload": "",
+       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('Question6'); } else if (!routes['R1'].near && !routes['R2'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Answer5",
+          "volume": 1,
+          "pos":  0
+        },
+
+        {
+          "name": "Track5_intro",
+          "volume": "[0,0.55,16,0.55,16.4,0]",
+          "pos":  0
+        },
+        {
+          "name": "Track5",
+          "volume": "[0,0,16,0,16.4,1]",
+          "pos":  0
+        },
+        {
+          "name": "Track4",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        }
+      ]
+    },
+    {
+      "name": "Question6",
+      "description":  "Sixth question triggered at George Street",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "17", "Rnext": "18"},
+      "onload": "window.narrativeEndTime=totalTime+11.1;",
+      "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (totalTime>window.narrativeEndTime && routes['Rnext'].nearest) { daoplayer.setScene('Answer6_&_Track6'); } else if (!routes['R1'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Question6",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track5",
+          "volume": "[0,1,1.5,0.55,11.1,0.55,12,1]"
+        }
+      ]
+    },
+    {
+      "name": "Answer6_&_Track6",
+      "description":  "answer and new track for question 6",
+      "partial": false,
+      "waypoints": {},
+      "routes": {"R1": "18", "R2": "19", "R3": "20", "Rnext": "21"},
+      "onload": "",
+       "onupdate": "if (activity=='NOGPS') {if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } } else {window.lastGpsTime=totalTime; if (routes['Rnext'].nearest) { daoplayer.setScene('EndMusicFade'); } else if (!routes['R1'].near && !routes['R2'].near && !routes['R3'].near && !routes['Rnext'].near) { daoplayer.setScene('offRoute'); } }",
+
+      "updatePeriod": 1.0,
+      "tracks": [
+        {
+          "name": "Answer6",
+          "volume": 1,
+          "pos":  0
+        },
+        {
+          "name": "Track6",
+          "volume": "[0,0.55,4.5,0.55,6,1]",
+          "pos":  0
+        },
+        {
+          "name": "Track5",
+          "volume": "sceneTime<2 ? [sceneTime,trackVolume,2,0] : 0"
+        }
+      ]
+    },
+    {
+      "name": "EndMusicFade",
+      "description":  "end, music stop",
+      "waypoints": {},
+      "routes": {"R1": "21"},
+      "onload": "",
+      "onupdate": "",
+      "tracks": [
+        {
+          "name": "Track6",
+          "volume": "sceneTime<7 ? [sceneTime,trackVolume,7,0] : 0"
+        }
+      ]
+    }
+  ]
+}

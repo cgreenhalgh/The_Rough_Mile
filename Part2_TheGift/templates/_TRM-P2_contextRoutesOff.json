@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title": "_TRM_contextDR",
+    "description": "deviation and waypoints and routes for The Rough Mile"
+  },
+  "context": {
+    "waypoints": [
+		{
+		"name": "DO1",
+		"lat":52.954641,  "lng":-1.143634,
+		"description":"deviation from route outer waypoint 1"
+		},
+		{
+		"name": "DO2",
+		"lat":52.953697,  "lng":-1.142883,
+		"description":"deviation from route outer waypoint 2"
+		},
+		{
+		"name": "DO3",
+		"lat":52.952831,  "lng":-1.142400,
+		"description":"deviation from route outer waypoint 3"
+		},
+		{
+		"name": "DO4",
+		"lat":52.952773,  "lng":-1.144964,
+		"description":"deviation from route outer waypoint 4"
+		},
+		{
+		"name": "DO5",
+		"lat":52.950905,  "lng":-1.145458,
+		"description":"deviation from route outer waypoint 5"
+		},
+		{
+		"name": "DO6",
+		"lat":52.951015,  "lng":-1.149084,
+		"description":"deviation from route outer waypoint 6"
+		},
+		{
+		"name": "DO7",
+		"lat":52.952224,  "lng":-1.150414,
+		"description":"deviation from route outer waypoint 7"
+		},
+		{
+		"name": "DO8",
+		"lat":52.952735,  "lng":-1.149931,
+		"description":"deviation from route outer waypoint 8"
+		},
+		{
+		"name": "DO9",
+		"lat":52.952619,  "lng":-1.151047,
+		"description":"deviation from route outer waypoint 9"
+		},
+		{
+		"name": "DO10",
+		"lat":52.953479,  "lng":-1.152431,
+		"description":"deviation from route outer waypoint 10"
+		},
+		{
+		"name": "DO11",
+		"lat":52.953479,  "lng":-1.152431,
+		"description":"deviation from route outer waypoint 11"
+		},
+		{
+		"name": "DO12",
+		"lat":52.954125,  "lng":-1.152013,
+		"description":"deviation from route outer waypoint 12"
+		},
+		{
+		"name": "DO13",
+		"lat":52.954358,  "lng":-1.148709,
+		"description":"deviation from route outer waypoint 13"
+		},
+		{
+		"name": "DO14",
+		"lat":52.954959,  "lng": -1.148312,
+		"description":"deviation from route outer waypoint 14"
+		},
+		{
+		"name": "DO15",
+		"lat":52.955140,  "lng":-1.143999,
+		"description":"deviation from route outer waypoint 15"
+    },
+
+
+    {
+		"name": "DI1",
+		"lat":52.953531,  "lng":-1.144243,
+		"description":"deviation from route inner waypoint 1 Carlton Street"
+		},
+		{
+		"name": "DI2",
+		"lat":52.954132,  "lng":-1.145096,
+		"description":"deviation from route inner waypoint 2 George Street"
+		},
+		{
+		"name": "DI3",
+		"lat":52.953404,  "lng":-1.145252,
+		"description":"deviation from route inner waypoint 3 sainsburys"
+		},
+		{
+		"name": "DI4",
+		"lat":52.953296,  "lng":-1.145684,
+		"description":"deviation from route inner waypoint 4 Victoria street"
+		},
+		{
+		"name": "DI5",
+		"lat":52.952923,  "lng":-1.145955,
+		"description":"deviation from route inner waypoint 5 bottle lane"
+		},
+		{
+		"name": "DI6",
+		"lat":52.952632,  "lng":-1.146296,
+		"description":"deviation from route inner waypoint 6 Bridlesmiths Walk"
+		},
+		{
+		"name": "DI7",
+		"lat":52.951958,  "lng":-1.146414,
+		"description":"deviation from route inner waypoint 7 Byaerd Lane"
+		},
+		{
+		"name": "DI8",
+		"lat":52.951750,  "lng":-1.147222,
+		"description":"deviation from route inner waypoint 8 Brdlesmith gate"
+		},
+		{
+		"name": "DI9",
+		"lat":52.952501,  "lng":-1.148718,
+		"description":"deviation from route inner waypoint 9 Peck Lane"
+		},
+		{
+		"name": "DI10",
+		"lat":52.953299,  "lng":-1.148924,
+		"description":"deviation from route Inner waypoint 10 Cheapside"
+		},
+		{
+		"name": "DI11",
+		"lat":52.953410,  "lng":-1.147631,
+		"description":"deviation from route inner waypoint 11 High Street"
+		},
+		{
+		"name": "DI12",
+		"lat":52.954244,  "lng":-1.146361,
+		"description":"deviation from route outer waypoint 12 Thurland Street"
+		}
+    ],
+
+    "routes": [
+			{
+				"name": "OR1",
+				"description": "deviation route 1",
+				"from": "DO1",
+				"to":"DO2",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR2",
+				"description": "deviation route 1",
+				"from": "DO2",
+				"to":"DO3",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR3",
+				"description": "deviation route 1",
+				"from": "DO3",
+				"to":"DO4",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR4",
+				"description": "deviation route 1",
+				"from": "DO4",
+				"to":"DO5",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR5",
+				"description": "deviation route 1",
+				"from": "DO5",
+				"to":"DO6",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR6",
+				"description": "deviation route 1",
+				"from": "DO6",
+				"to":"DO7",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR7",
+				"description": "deviation route 1",
+				"from": "DO7",
+				"to":"DO8",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR8",
+				"description": "deviation route 1",
+				"from": "DO8",
+				"to":"DO9",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR9",
+				"description": "deviation route 1",
+				"from": "DO9",
+				"to":"DO10",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR10",
+				"description": "deviation route 1",
+				"from": "DO10",
+				"to":"DO11",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR11",
+				"description": "deviation route 1",
+				"from": "DO11",
+				"to":"DO12",
+				"nearDistance": "30"
+			},
+			{
+				"name": "OR12",
+				"description": "deviation route 1",
+				"from": "DO12",
+				"to":"DO13",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR13",
+				"description": "deviation route 1",
+				"from": "DO13",
+				"to":"DO14",
+				"nearDistance": "20"
+			},
+			{
+				"name": "OR14",
+				"description": "deviation route 1",
+				"from": "DO14",
+				"to":"DO15",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR15",
+				"description": "deviation INNER route 1",
+				"from": "DI1",
+				"to":"DI2",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR16",
+				"description": "deviation INNER route 1",
+				"from": "DI3",
+				"to":"DI4",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR17",
+				"description": "deviation INNER route 1",
+				"from": "DI4",
+				"to":"DI5",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR18",
+				"description": "deviation INNER route 1",
+				"from": "DI6",
+				"to":"DI7",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR19",
+				"description": "deviation INNER route 1",
+				"from": "DI7",
+				"to":"DI8",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR20",
+				"description": "deviation INNER route 1",
+				"from": "DI8",
+				"to":"DI9",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR21",
+				"description": "deviation INNER route 1",
+				"from": "DI9",
+				"to":"DI10",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR22",
+				"description": "deviation INNER route 1",
+				"from": "DI10",
+				"to":"DI11",
+				"nearDistance": "20"
+			},
+      {
+				"name": "OR23",
+				"description": "deviation INNER route 1",
+				"from": "DI11",
+				"to":"DI12",
+				"nearDistance": "20"
+			}
+
+    ]
+  }
+}

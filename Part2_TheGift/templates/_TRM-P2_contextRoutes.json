@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title": "_TRM_context",
+    "description": "waypoints and routes for The Rough Mile"
+  },
+  "context": {
+    "waypoints": [
+		{
+		"name": "BS1",
+		"lat": 52.953976, 	"lng":-1.143943,
+		"description": "Start-Finish - Broad Street, Rough Trade Records",
+		"origin": true
+		},
+		{
+		"name": "BS2",
+		"lat": 52.953870, 	"lng": -1.143890,
+		"description": "Question1_R1",
+    "origin": true
+		},
+		{
+		"name": "SS1",
+		"lat": 52.953686, 	"lng": -1.143793,
+		"description": "Answer1_&_Track1",
+    "origin": true
+		},
+		{
+		"name": "SS2",
+		"lat": 52.953475, 	"lng": -1.143656,
+		"description": "fish and chips shop on Stoney street"
+		},
+		{
+		"name": "WG1",
+		"lat":52.953326,  "lng":-1.143661,
+		"description":"Transition into Waser Gate"
+		},
+		{
+		"name": "WG2",
+		"lat":52.953298,  "lng":-1.143762,
+		"description":"narration Just inside Waser Gate"
+		},
+		{
+		"name": "FG1",
+		"lat": 52.953126, "lng": -1.145055,
+		"description": "transition into Fletcher Gate"
+		},
+
+		{
+		"name": "FG2",
+		"lat": 52.952893, "lng": -1.145445,
+		"description": "Tram stop capture on Fletcher Gate"
+		},
+		{
+		"name": "FG3",
+		"lat": 52.952786, "lng": -1.145522,
+		"description": "leaving tram stop capture on Fletcher Gate"
+		},
+		{
+		"name": "FG4",
+		"lat": 52.952389, "lng": -1.145791,
+		"description": "Question2_R1"
+		},
+		{
+		"name": "FG5",
+		"lat": 52.952284, "lng": -1.145802,
+		"description": "Answer2_&_Track2_R1"
+		},
+		{
+		"name": "FG6",
+		"lat": 52.951881, "lng": -1.145913,
+		"description": "Just down from nook at Yo Sushi on Fletcher Gate"
+		},
+		{
+		"name": "WC",
+		"lat":52.951559,  "lng":-1.146058,
+		"description":"Answer2_&_Track2_R2"
+		},
+		{
+		"name": "MP1",
+		"lat":52.951516,  "lng":-1.146325,
+		"description": "Transition into Middle Pavement"
+		},
+		{
+		"name": "MP2",
+		"lat":52.951479,  "lng":-1.146830,
+		"description": "Outside of Broadmarsh Enterance on Middle Pavement"
+		},
+		{
+		"name": "AS1",
+		"lat":52.951514,  "lng":-1.147952,
+		"description": "Question3_R1"
+		},
+		{
+		"name": "AS2",
+		"lat":52.951745,  "lng":-1.148797,
+		"description":"Answer3_&_Track3_R1"
+		},
+		{
+		"name": "sPS2",
+		"lat":52.952056,  "lng":-1.148992,
+		"description":"St Peters square - Trees"
+		},
+		{
+		"name": "EW",
+		"lat":52.952421,  "lng":-1.149034,
+		"description":"Answer3_&_Track3_R2"
+		},
+		{
+		"name": "MS",
+		"lat":52.953102,  "lng":-1.149232,
+		"description":"Question4_R1"
+		},
+    {
+		"name": "MS1",
+		"lat":52.953212,  "lng":-1.149279,
+		"description":"Answer4_&_Track4_R1"
+		},
+		{
+		"name": "MS2",
+		"lat":52.953071,  "lng": -1.150650,
+		"description":"Answer4_&_Track4_R4"
+		},
+		{
+		"name": "MS3",
+		"lat":52.953375,  "lng": -1.151143,
+		"description":""
+		},
+		{
+		"name": "MS4",
+		"lat":52.953453,  "lng":-1.149346,
+		"description":""
+		},
+		{
+		"name": "MS5",
+		"lat":52.953617,  "lng":-1.149382,
+		"description":"Answer3_&_Track3_R6"
+		},
+		{
+		"name": "MS6",
+		"lat":52.953641,  "lng": -1.151183,
+		"description":"Answer3_&_Track3_R5"
+		},
+		{
+		"name": "LR",
+		"lat":52.953651,  "lng":-1.149181,
+		"description":"Answer3_&_Track3_R7"
+		},
+		{
+		"name": "CS1",
+		"lat":52.953726,  "lng":-1.147501,
+		"description":"Question5_R1"
+		},
+    {
+		"name": "CS2",
+		"lat":52.953851,  "lng":-1.147499,
+		"description":"Question5_R1"
+		},
+		{
+		"name": "LS1",
+		"lat":52.954414,  "lng": -1.147528,
+		"description":"Answer4_&_Track4_R1"
+		},
+		{
+		"name": "LS2",
+		"lat":52.954418,  "lng":-1.147426,
+		"description":"Capture point by HSBC Cashpoint in Lincoln street"
+		},
+		{
+		"name": "LS3",
+		"lat":52.954434,  "lng":-1.147049,
+		"description":"music transition after leaving capture point"
+		},
+		{
+		"name": "LS4",
+		"lat":52.954467,  "lng":-1.146866,
+		"description":"Answer4_&_Track4_R2"
+		},
+		{
+		"name": "GS1",
+		"lat":52.954664,   "lng":-1.145415,
+		"description":"Question6_R1"
+		},
+    {
+		"name": "GS2",
+		"lat":52.954574,   "lng":-1.145286,
+		"description":"Answer6_&_Track6_R1"
+		},
+		{
+		"name": "OLS1",
+		"lat":52.954370,  "lng":-1.145123,
+		"description":"Answer6_&_Track6_R2"
+		},
+		{
+		"name": "OLS2",
+		"lat":52.954389,  "lng":-1.144998,
+		"description":"Answer6_&_Track6_R1"
+		},
+		{
+		"name": "BS3",
+		"lat":52.954507,  "lng":-1.144282,
+		"description":"Answer6_&_Track6_R3"
+		},
+		{
+		"name": "BS4",
+		"lat":52.954090,  "lng":-1.144029,
+		"description":"EndMusicFade"
+		}
+
+    ],
+
+    "routes": [
+			{
+				"name": "0",
+				"description": "Start of walk, music starts",
+				"from": "BS1",
+				"to": "BS2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "1",
+				"description": "Question1_R1",
+				"from": "BS2",
+				"to": "SS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "2",
+				"description": "Answer1_&_Track1_R1",
+				"from": "SS1",
+				"to": "WG1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "3",
+				"description": "Answer1_&_Track1_R2",
+				"from": "WG1",
+				"to": "FG1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "4",
+				"description": "Answer1_&_Track1_R3",
+				"from": "FG1",
+				"to": "FG4",
+				"nearDistance": "30"
+			},
+			{
+				"name": "5",
+				"description": "Question2_R1",
+				"from": "FG4",
+				"to": "FG5",
+				"nearDistance": "30"
+			},
+			{
+				"name": "6",
+				"description": "Answer2_&_Track2_R1",
+				"from": "FG5",
+				"to": "WC",
+				"nearDistance": "30"
+			},
+			{
+				"name": "7",
+				"description": "Answer2_&_Track2_R2",
+				"from": "WC",
+				"to": "AS1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "8",
+				"description": "Question3_R1",
+				"from": "AS1",
+				"to": "AS2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "9",
+				"description": "Answer3_&_Track3_R1",
+				"from": "AS2",
+				"to":"EW",
+				"nearDistance": "30"
+			},
+			{
+				"name": "10",
+				"description": "Answer3_&_Track3_R2",
+				"from": "EW",
+				"to":"MS",
+				"nearDistance": "25"
+			},
+      {
+				"name": "11",
+				"description": "Question4_R1",
+				"from": "MS",
+				"to":"MS1",
+				"nearDistance": "25"
+			},
+			{
+				"name": "12a",
+				"description": "Answer4_&_Track4_R1",
+				"from": "MS1",
+				"to":"MS2",
+				"nearDistance": "25"
+			},
+			{
+				"name": "12b",
+				"from": "MS2",
+				"to":"MS6",
+				"description": "Answer4_&_Track4_R2",
+				"nearDistance": "25"
+			},
+      {
+				"name": "12c",
+				"from": "MS6",
+				"to":"LR",
+				"description": "Answer4_&_Track4_R3",
+				"nearDistance": "25"
+			},
+			{
+				"name": "12d",
+				"from": "LR",
+				"to":"MS1",
+				"description": "Answer4_&_Track4_R4",
+				"nearDistance": "25"
+			},
+			{
+				"name": "13",
+				"from": "LR",
+				"to":"CS1",
+				"description": "Answer4_&_Track4_R5",
+				"nearDistance": "30"
+			},
+			{
+				"name": "14",
+				"from": "CS1",
+				"to":"CS2",
+				"description": "Question5_R1",
+				"nearDistance": "30"
+			},
+			{
+				"name": "15",
+				"from": "CS2",
+				"to":"LS1",
+				"description": "Answer5_&_Track5_R1",
+				"nearDistance": "30"
+			},
+      {
+				"name": "16",
+				"from": "LS1",
+				"to":"GS1",
+				"description": "Answer5_&_Track5_R2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "17",
+				"description": "Question6_R1",
+				"from": "GS1",
+				"to":"GS2",
+				"nearDistance": "30"
+			},
+			{
+				"name": "18",
+				"description": "Answer6_&_Track6_R1",
+				"from": "GS2",
+				"to":"OLS1",
+				"nearDistance": "30"
+			},
+      {
+				"name": "19",
+				"description": "Answer6_&_Track6_R2",
+				"from": "OLS1",
+				"to":"BS3",
+				"nearDistance": "30"
+			},
+			{
+				"name": "20",
+				"description": "Answer6_&_Track6_R3",
+				"from": "BS3",
+				"to":"BS4",
+				"nearDistance": "30"
+			},
+			{
+				"name": "21",
+				"description": "music fade",
+				"from": "BS4",
+				"to":"BS1",
+				"nearDistance": "30"
+			}
+    ]
+  }
+}

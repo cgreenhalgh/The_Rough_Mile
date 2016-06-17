@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title": "_TRM_start",
+    "description" : "start file for The Rough Mile - with Route Checking"
+  },
+  "defaultScene": "getGPS",
+  "scenes": [
+    {
+      "name": "getGPS",
+      "waypoints":{},
+      "routes":{"0":"0"},
+      "partial": false,
+      "onload": "window.startNoGpsTime=totalTime; window.lastGpsTime=(-120); window.narrativeEndTime=totalTime; window.nextOffrouteWarning=totalTime; window.nextGpsWarning=totalTime;",
+      "onupdate": "if (activity=='NOGPS') {window.startNoGpsTime=totalTime; } else { window.lastGpsTime=totalTime; } if (totalTime>window.startNoGpsTime+17 && routes['0'].near) {daoplayer.setScene('Scene0_musicStart');}",
+
+      "updatePeriod":1.0,
+      "description": "wait for gps"
+    },
+    {
+      "name": "offRoute",
+      "partial": false,
+      "waypoints":{},
+      "onload": "",
+      "onupdate": "if (activity!='NOGPS') { window.lastGpsTime=totalTime; } if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } else if (routes['0'].nearest) { daoplayer.setScene('Scene0_musicStart'); } else if (routes['1'].nearest) { daoplayer.setScene('Question1'); } else if (routes['2'].near || routes['3'].near || routes['4'].near) { daoplayer.setScene('Answer1_&_Track1'); } else if (routes['5'].nearest) { daoplayer.setScene('Question2'); } else if (routes['6'].near || routes['7'].near) { daoplayer.setScene('Answer2_&_Track2'); } else if (routes['8'].nearest) { daoplayer.setScene('Question3'); } else if (routes['9'].near || routes['10'].near) { daoplayer.setScene('Answer3_&_Track3'); } else if (routes['11'].nearest) { daoplayer.setScene('Question4'); } else if (routes['12a'].near || routes['12b'].near || routes['12c'].near || routes['12d'].near || routes['13'].near) { daoplayer.setScene('Answer4_&_Track4'); } else if (routes['14'].nearest) { daoplayer.setScene('Question5'); } else if (routes['15'].near || routes['16'].near) { daoplayer.setScene('Answer5_&_Track5'); } else if (routes['17'].nearest) { daoplayer.setScene('Question6'); } else if (routes['18'].near || routes['19'].near || routes['20'].near) { daoplayer.setScene('Answer6_&_Track6'); } else if (routes['OR1'].near || routes['OR2'].near || routes['OR3'].near || routes['OR4'].near || routes['OR5'].near || routes['OR6'].near || routes['OR7'].near || routes['OR8'].near || routes['OR9'].near || routes['OR10'].near || routes['OR11'].near || routes['OR12'].near || routes['OR13'].near || routes['OR14'].near || routes['OR15'].near || routes['OR16'].near || routes['OR17'].near || routes['OR18'].near || routes['OR19'].near || routes['OR20'].near || routes['OR21'].near || routes['OR22'].near || routes['OR23'].near) if (totalTime>window.nextOffrouteWarning) {daoplayer.setScene('instructions'); window.nextOffrouteWarning=totalTime+30;}",
+      "updatePeriod":1.0,
+      "description": "Where are you and have you strayed off route"
+    },
+    {
+      "name": "instructions",
+      "partial": false,
+      "waypoints":{},
+      "onload": "window.narrativeEndTime=totalTime+16;",
+      "onupdate": "if (activity!='NOGPS') { window.lastGpsTime=totalTime; } if (totalTime>window.lastGpsTime+120) { daoplayer.setScene('lostGps'); } else if (routes['0'].nearest) { daoplayer.setScene('Scene0_musicStart'); } else if (routes['1'].nearest) { daoplayer.setScene('Question1'); } else if (routes['2'].near || routes['3'].near || routes['4'].near) { daoplayer.setScene('Answer1_&_Track1'); } else if (routes['5'].nearest) { daoplayer.setScene('Question2'); } else if (routes['6'].near || routes['7'].near) { daoplayer.setScene('Answer2_&_Track2'); } else if (routes['8'].nearest) { daoplayer.setScene('Question3'); } else if (routes['9'].near || routes['10'].near) { daoplayer.setScene('Answer3_&_Track3'); } else if (routes['11'].nearest) { daoplayer.setScene('Question4'); } else if (routes['12a'].near || routes['12b'].near || routes['12c'].near || routes['12d'].near || routes['13'].near) { daoplayer.setScene('Answer4_&_Track4'); } else if (routes['14'].nearest) { daoplayer.setScene('Question5'); } else if (routes['15'].near || routes['16'].near) { daoplayer.setScene('Answer5_&_Track5'); } else if (routes['17'].nearest) { daoplayer.setScene('Question6'); } else if (routes['18'].near || routes['19'].near || routes['20'].near) { daoplayer.setScene('Answer6_&_Track6'); } else if (totalTime>window.narrativeEndTime) {daoplayer.setScene('offRoute'); } ",
+      "updatePeriod":1.0,
+      "description": "They've wondered off route, so we will give them an instruction",
+      "tracks": [
+        {
+          "name": "Error1",
+          "volume": 0.85,
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "name": "lostGps",
+      "partial": false,
+      "waypoints":{},
+      "onload": "",
+      "onupdate": "if (activity!='NOGPS') { window.lastGpsTime=totalTime; daoplayer.setScene('offRoute');} if (totalTime>window.nextGpsWarning) { daoplayer.speak('It seems like the system has encoutered a problem, the location tracking is not working. Please call 07891608500 and one of the team will come and help you', true); window.nextGpsWarning=totalTime+30;} ",
+      "updatePeriod":1.0,
+      "description": "GPS signal has been lost for sometime, so we give them an instruction"
+    }
+  ]
+}

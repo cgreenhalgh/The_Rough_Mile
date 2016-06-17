@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "mimetype": "application/x-daoplayer-composition",
+    "version": 1,
+    "title":  "_TRM_Part2_voiceTracks",
+    "description": "these are voice tracks for the Rough Mile part 2"
+  },
+
+  "tracks": [
+    {
+      "name": "Question1",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "T1Q.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 12.8
+        }
+      ]
+    },
+    {
+      "name": "Question2",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "T2Q.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 14.6
+        }
+      ]
+    },
+    {
+      "name": "Question3",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "T3Q.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 13.5
+        }
+      ]
+    },
+    {
+      "name": "Question4",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "T4Q.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 12.5
+        }
+      ]
+    },
+    {
+      "name": "Question5",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "T5Q.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 9.4
+        }
+      ]
+    },
+    {
+      "name": "Question6",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "T6Q.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 11.3
+        }
+      ]
+    },
+    {
+      "name": "Answer1",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "2841530B_1.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 5.41
+        }
+      ]
+    },
+    {
+      "name": "Answer2",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "2841530B_2.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 4.26
+        }
+      ]
+    },
+    {
+      "name": "Answer3",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "2841530B_3.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 6.21
+        }
+      ]
+    },
+    {
+      "name": "Answer4",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "2841530B_4.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 5.875
+        }
+      ]
+    },
+    {
+      "name": "Answer5",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "2841530B_5.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 15.81
+        }
+      ]
+    },
+    {
+      "name": "Answer6",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "2841530B_6.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 4.105
+        }
+      ]
+    },
+    {
+      "name": "Track1",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Emmy The Great - 01. Swimming Pool.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 246.5
+        },
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "trackPos": 245,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Track2",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Squeeze - 06. Pulling Mussels (From The Shell).wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 236
+        },
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "trackPos": 232,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Track3",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Busted - 16. Thunderbirds Are Go.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 189.188
+        },
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "trackPos": 186.5,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Track4",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "David Bowie - 03. Let's Dance.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 457.195
+        },
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "trackPos": 454,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Track5",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Johnny Cash - 17. Folsom Prison Blues.wav",
+          "filePos": 1.227,
+          "trackPos": 0,
+          "length": 164.7
+        },
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "trackPos": 163.5,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Track6",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "The Specials - 02. A Message to You Rudy.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 171.5
+        },
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "trackPos": 168,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Track1_intro",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Emmy The Great - 01. Swimming Pool.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 0,
+          "repeats": -1
+        }
+      ]
+    },
+    {
+      "name": "Track2_intro",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Squeeze - 06. Pulling Mussels (From The Shell).wav",
+          "filePos": 118.106,
+          "trackPos": 0,
+          "length": 6.684,
+          "repeats": -1
+        }
+      ]
+    },
+    {
+      "name": "Track3_intro",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Busted - 16. Thunderbirds Are Go.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 0,
+          "repeats": -1
+        }
+      ]
+    },
+    {
+      "name": "Track4_intro",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "David Bowie - 03. Let's Dance.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 0,
+          "repeats": -1
+        }
+      ]
+    },
+    {
+      "name": "Track5_intro",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Johnny Cash - 17. Folsom Prison Blues.wav",
+          "filePos": 109.897,
+          "trackPos": 0,
+          "length": 18.038,
+          "repeats": -1
+        }
+      ]
+    },
+    {
+      "name": "Track6_intro",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "The Specials - 02. A Message to You Rudy.wav",
+          "filePos": 0,
+          "trackPos": 0,
+          "length": 0,
+          "repeats": -1
+        }
+      ]
+    },
+     {
+      "name": "scene_0_d&b",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_0_d&b.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.264
+        }
+      ]
+    },
+    {
+      "name": "scene_0_keys",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "scene_0_keys.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 62.264
+        }
+      ]
+    },
+    {
+      "name": "capture",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "capture.wav",
+          "filePos": 0,
+          "repeats": -1,
+          "trackPos": 0,
+          "length": 378.75
+        }
+      ]
+    },
+    {
+      "name": "Error1",
+      "pauseIfSilent": true,
+      "files": [
+        {
+          "path": "Error1.wav",
+          "filePos": 0,
+          "trackPos": 0
+        }
+      ]
+    }
+  ]
+}
