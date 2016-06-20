@@ -156,7 +156,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track1.track1}}",
+          "path": "{{{track1.track1}}}.wav",
           "filePos": {{track1.filepos}},
           "trackPos": 0,
           "length": {{track1.length}}
@@ -174,7 +174,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track2.track2}}",
+          "path": "{{{track2.track2}}}.wav",
           "filePos": {{track2.filepos}},
           "trackPos": 0,
           "length": {{track2.length}}
@@ -192,7 +192,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track3.track3}}",
+          "path": "{{{track3.track3}}}.wav",
           "filePos": {{track3.filepos}},
           "trackPos": 0,
           "length": {{track3.length}}
@@ -210,7 +210,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track4.track4}}",
+          "path": "{{{track4.track4}}}.wav",
           "filePos": {{track4.filepos}},
           "trackPos": 0,
           "length": {{track4.length}}
@@ -228,7 +228,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track5.track5}}",
+          "path": "{{{track5.track5}}}.wav",
           "filePos": {{track5.filepos}},
           "trackPos": 0,
           "length": {{track5.length}}
@@ -246,7 +246,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track6.track6}}",
+          "path": "{{{track6.track6}}}.wav",
           "filePos": {{track6.filepos}},
           "trackPos": 0,
           "length": {{track6.length}}
@@ -264,7 +264,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track1.track1}}",
+          "path": "{{{track1.track1}}}.wav",
           "filePos": {{track1.intro_filepos}},
           "trackPos": 0,
           "length": {{track1.intro_length}},
@@ -277,7 +277,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track2.track2}}",
+          "path": "{{{track2.track2}}}.wav",
           "filePos": {{track2.intro_filepos}},
           "trackPos": 0,
           "length": {{track2.intro_length}},
@@ -290,7 +290,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track3.track3}}",
+          "path": "{{{track3.track3}}}.wav",
           "filePos": {{track3.intro_filepos}},
           "trackPos": 0,
           "length": {{track3.intro_length}},
@@ -303,7 +303,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track4.track4}}",
+          "path": "{{{track4.track4}}}.wav",
           "filePos": {{track4.intro_filepos}},
           "trackPos": 0,
           "length": {{track4.intro_length}},
@@ -316,7 +316,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track5.track5}}",
+          "path": "{{{track5.track5}}}.wav",
           "filePos": {{track5.intro_filepos}},
           "trackPos": 0,
           "length": {{track5.intro_length}},
@@ -329,7 +329,7 @@
       "pauseIfSilent": true,
       "files": [
         {
-          "path": "{{track6.track6}}",
+          "path": "{{{track6.track6}}}.wav",
           "filePos": {{track6.intro_filepos}},
           "trackPos": 0,
           "length": {{track6.intro_length}},

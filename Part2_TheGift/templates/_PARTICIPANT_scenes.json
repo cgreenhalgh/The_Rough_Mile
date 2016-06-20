@@ -72,9 +72,14 @@
           "pos":  0
         },
         {
-          "name": "Track1",
-          "volume": "[0,{{track1.introvolume}},{{answer1.length}}+0.5,{{track1.introvolume,{{answer1.length}}+2,{{track1.trackvolume}}]",
+          "name": "Track1_intro",
+          "volume": "{{track1.intro_length}}==0 || sceneTime>{{answer1.length}}+2 ? 0 : [0,0,0.5,{{track1.introvolume}},{{answer1.length}}+0.5,{{track1.introvolume}},{{answer1.length}}+0.9,0]",
           "pos":  0
+        },
+        {
+          "name": "Track1",
+          "volume": "{{track1.intro_length}}==0 ? ([0,{{track1.introvolume}},{{answer1.length}}+0.5,{{track1.introvolume}},{{answer1.length}}+2,{{track1.trackvolume}}]) : (sceneTime<2 0 ? [0,0,{{answer1.length}}+0.5,0,{{answer1.length}}+0.9,{{track1.trackvolume}}])",
+          "pos":  "{{track1.intro_length}}==0 ? 0 : -{{answer1.length}}"
         },
         {
           "name": "scene_0_d&b",
@@ -104,7 +109,7 @@
         },
         {
           "name": "Track1",
-          "volume": "[sceneTime,trackVolume,1.5,{{track1.introvolume}},14.5,{{track1.introvolume}},15.5,{{track1.trackvolume}}]"
+          "volume": "[0,{{track1.trackvolume}},1.5,{{track1.introvolume}},14.5,{{track1.introvolume}},15.5,{{track1.trackvolume}}]"
         }
       ]
     },
@@ -126,13 +131,13 @@
         },
         {
           "name": "Track2_intro",
-          "volume": "{{track2.intro_length}}==0 && sceneTime<{{answer2.length}}+2 ? [0,0,0.5,{{track2.introvolume}},{{answer2.length}}+0.5,{{track2.introvolume}},{{answer2.length}}+0.9,0]: 0",
+          "volume": "{{track2.intro_length}}==0 || sceneTime>{{answer2.length}}+2 ? 0 : [0,0,0.5,{{track2.introvolume}},{{answer2.length}}+0.5,{{track2.introvolume}},{{answer2.length}}+0.9,0]",
           "pos":  0
         },
         {
           "name": "Track2",
-          "volume": "{{track2.intro_length}}==0 ? ([0,{{track2.introvolume}},{{anwer2.length}}+0.5,{{track2.introvolume}},{{answer2.length}}+2,{{track2.trackvolume}}]) : (sceneTime>=2 ? [0,0,{{answer2.length}}+0.5,0,{{answer2.length}}+0.9,{{track2.trackvolume}}] : 0)",
-          "pos":  -{{answer2.length}}
+          "volume": "{{track2.intro_length}}==0 ? ([0,{{track2.introvolume}},{{answer2.length}}+0.5,{{track2.introvolume}},{{answer2.length}}+2,{{track2.trackvolume}}]) : (sceneTime<2 0 ? [0,0,{{answer2.length}}+0.5,0,{{answer2.length}}+0.9,{{track2.trackvolume}}])",
+          "pos":  "{{track2.intro_length}}==0 ? 0 : -{{answer2.length}}"
         },
         {
           "name": "Track1",
@@ -158,7 +163,7 @@
         },
         {
           "name": "Track2",
-          "volume": "[0,0.85,1.5,0.5,13,0.5,14,0.85]"
+          "volume": "[0,{{track2.trackvolume}},1.5,{{track1.introvolume}},13,{{track1.introvolume}},14,{{track1.trackvolume}}]"
         }
       ]
     },
@@ -179,9 +184,14 @@
           "pos":  0
         },
         {
-          "name": "Track3",
-          "volume": "[0,0.3,6.5,0.3,8,0.6]",
+          "name": "Track3_intro",
+          "volume": "{{track3.intro_length}}==0 || sceneTime>{{answer3.length}}+2 ? 0 : [0,0,0.5,{{track3.introvolume}},{{answer3.length}}+0.5,{{track3.introvolume}},{{answer3.length}}+0.9,0]",
           "pos":  0
+        },
+        {
+          "name": "Track3",
+          "volume": "{{track3.intro_length}}==0 ? ([0,{{track3.introvolume}},{{answer3.length}}+0.5,{{track3.introvolume}},{{answer3.length}}+2,{{track3.trackvolume}}]) : (sceneTime<2 0 ? [0,0,{{answer3.length}}+0.5,0,{{answer3.length}}+0.9,{{track3.trackvolume}}])",
+          "pos":  "{{track3.intro_length}}==0 ? 0 : -{{answer3.length}}"
         },
         {
           "name": "Track2",
@@ -207,7 +217,7 @@
         },
         {
           "name": "Track3",
-          "volume": "[0,0.6,1.5,0.3,12.2,0.3,13.2,0.6]"
+          "volume": "[0,{{track3.trackvolume}},1.5,{{track3.introvolume}},12.12,{{track3.introvolume}},13.2,{{track3.trackvolume}}]"
         }
       ]
     },
@@ -228,9 +238,14 @@
           "pos":  0
         },
         {
-          "name": "Track4",
-          "volume": "[0,0.4,6,0.4,8,0.7]",
+          "name": "Track4_intro",
+          "volume": "{{track4.intro_length}}==0 || sceneTime>{{answer4.length}}+2 ? 0 : [0,0,0.5,{{track4.introvolume}},{{answer4.length}}+0.5,{{track4.introvolume}},{{answer4.length}}+0.9,0]",
           "pos":  0
+        },
+        {
+          "name": "Track4",
+          "volume": "{{track4.intro_length}}==0 ? ([0,{{track4.introvolume}},{{answer4.length}}+0.5,{{track4.introvolume}},{{answer4.length}}+2,{{track4.trackvolume}}]) : (sceneTime<2 0 ? [0,0,{{answer4.length}}+0.5,0,{{answer4.length}}+0.9,{{track4.trackvolume}}])",
+          "pos":  "{{track4.intro_length}}==0 ? 0 : -{{answer4.length}}"
         },
         {
           "name": "Track3",
@@ -256,7 +271,7 @@
         },
         {
           "name": "Track4",
-          "volume": "[0,0.7,1.5,0.4,9.1,0.4,10,0.7]"
+          "volume": "[0,{{track4.trackvolume}},1.5,{{track4.introvolume}},9.1,{{track4.introvolume}},10,{{track4.trackvolume}}]"
         }
       ]
     },
@@ -276,16 +291,15 @@
           "volume": 1,
           "pos":  0
         },
-
         {
           "name": "Track5_intro",
-          "volume": "[0,0.55,16,0.55,16.4,0]",
+          "volume": "{{track5.intro_length}}==0 || sceneTime>{{answer5.length}}+2 ? 0 : [0,0,0.5,{{track5.introvolume}},{{answer5.length}}+0.5,{{track5.introvolume}},{{answer5.length}}+0.9,0]",
           "pos":  0
         },
         {
           "name": "Track5",
-          "volume": "[0,0,16,0,16.4,1]",
-          "pos":  0
+          "volume": "{{track5.intro_length}}==0 ? ([0,{{track5.introvolume}},{{answer5.length}}+0.5,{{track5.introvolume}},{{answer5.length}}+2,{{track5.trackvolume}}]) : (sceneTime<2 0 ? [0,0,{{answer5.length}}+0.5,0,{{answer5.length}}+0.9,{{track5.trackvolume}}])",
+          "pos":  "{{track5.intro_length}}==0 ? 0 : -{{answer5.length}}"
         },
         {
           "name": "Track4",
@@ -311,7 +325,7 @@
         },
         {
           "name": "Track5",
-          "volume": "[0,1,1.5,0.55,11.1,0.55,12,1]"
+          "volume": "[0,{{track5.trackvolume}},1.5,{{track5.introvolume}},11.1,{{track5.introvolume}},12,{{track5.trackvolume}}]"
         }
       ]
     },
@@ -332,9 +346,14 @@
           "pos":  0
         },
         {
-          "name": "Track6",
-          "volume": "[0,0.55,4.5,0.55,6,1]",
+          "name": "Track6_intro",
+          "volume": "{{track6.intro_length}}==0 || sceneTime>{{answer6.length}}+2 ? 0 : [0,0,0.5,{{track6.introvolume}},{{answer6.length}}+0.5,{{track6.introvolume}},{{answer6.length}}+0.9,0]",
           "pos":  0
+        },
+        {
+          "name": "Track6",
+          "volume": "{{track6.intro_length}}==0 ? ([0,{{track6.introvolume}},{{answer6.length}}+0.5,{{track6.introvolume}},{{answer6.length}}+2,{{track6.trackvolume}}]) : (sceneTime<2 0 ? [0,0,{{answer6.length}}+0.5,0,{{answer6.length}}+0.9,{{track6.trackvolume}}])",
+          "pos":  "{{track6.intro_length}}==0 ? 0 : -{{answer6.length}}"
         },
         {
           "name": "Track5",
