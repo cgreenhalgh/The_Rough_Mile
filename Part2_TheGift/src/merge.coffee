@@ -59,6 +59,14 @@ for r in [1..1000]
   if process.argv.length<4 || (process.argv.indexOf id)>=0
     data = readrow r
     console.log 'Read participant '+id+': '+(JSON.stringify data)
+    data.cond = () -> 
+      (val,render) ->
+        rval = (render val).split /[?:]/
+        #console.log '#cond '+JSON.stringify(val)+' -> '+JSON.stringify(rval)
+        if eval rval[0].trim() 
+          return rval[1].trim()
+        else
+          return rval[2].trim()
     outdir = 'output/'+id
     try
       fs.statSync outdir

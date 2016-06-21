@@ -87,6 +87,17 @@
     if (process.argv.length < 4 || (process.argv.indexOf(id)) >= 0) {
       data = readrow(r);
       console.log('Read participant ' + id + ': ' + (JSON.stringify(data)));
+      data.cond = function() {
+        return function(val, render) {
+          var rval;
+          rval = (render(val)).split(/[?:]/);
+          if (eval(rval[0].trim())) {
+            return rval[1].trim();
+          } else {
+            return rval[2].trim();
+          }
+        };
+      };
       outdir = 'output/' + id;
       try {
         fs.statSync(outdir);
